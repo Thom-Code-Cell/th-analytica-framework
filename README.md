@@ -1,5 +1,29 @@
 # TH Analytica Framework
 
+The TH Analytica Framework is a methodology for analysing the AI readiness and AI visibility of websites.
+
+It evaluates how clearly a website can be understood and referenced by artificial intelligence systems such as:
+
+- ChatGPT
+- Gemini
+- Claude
+- Perplexity
+
+The framework analyses several dimensions including:
+
+- technical accessibility
+- semantic clarity
+- structured data
+- trust signals
+- content structure
+
+Website:
+https://th-analytica.com
+
+Framework documentation:
+https://github.com/Thom-Code-Zelle/th-analytica-framework
+# TH Analytica Framework
+
 The TH Analytica Framework is a methodology for analysing how well websites can be understood and recommended by AI systems such as ChatGPT, Gemini, Claude or Perplexity.
 
 The framework evaluates AI Readiness and AI Visibility of websites.
