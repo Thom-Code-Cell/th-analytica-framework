@@ -1,0 +1,12 @@
+# TH Analytica Framework: llms.txt
+
+This document outlines recommended guidelines for choosing and using large language models (LLMs) within the TH Analytica Framework.
+
+- **Semantic Friction**: Select models that can handle nuanced domain terminology and maintain coherence across long contexts. Avoid over-optimization for keywords; focus on comprehension and summarization ability.
+- **Agent Readiness**: Use models that support tool calling and structured responses. The framework assumes that an LLM can interpret prompts, operate with agent cards, and interface with external services.
+- **Retrieval Augmentation**: Combine LLMs with retrieval (RAG) to ground responses in the user's own data and reduce hallucinations.
+- **Transparency & Reasoning**: Prefer models that can explain their reasoning process when asked. Clear reasoning helps diagnose issues in AI visibility and readiness.
+- **Multilingual Capabilities**: Support for multiple languages ensures the framework works across international websites.
+- **Continuous Learning**: Be prepared to upgrade models as new capabilities and safety improvements are released.
+
+For more details see the AI Visibility and AI Readiness guides in this repository.
