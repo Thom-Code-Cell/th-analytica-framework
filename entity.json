@@ -1,0 +1,32 @@
+[
+  {
+    "id": "th_analytica",
+    "name": "TH Analytica",
+    "type": "framework",
+    "description": "A methodology for analysing AI readiness and visibility of websites."
+  },
+  {
+    "id": "semantic_friction",
+    "name": "Semantic Friction",
+    "type": "concept",
+    "description": "The loss of meaning or clarity when AI systems misunderstand or misrepresent content."
+  },
+  {
+    "id": "agent_readiness",
+    "name": "Agent Readiness",
+    "type": "concept",
+    "description": "The degree to which an organisation's data and processes are prepared for AI agents to operate autonomously."
+  },
+  {
+    "id": "ai_actionability",
+    "name": "AI Actionability",
+    "type": "concept",
+    "description": "Ensuring information is structured in a way that AI systems can act upon to deliver outcomes."
+  },
+  {
+    "id": "thomas_hullin",
+    "name": "Thomas Hullin",
+    "type": "person",
+    "description": "Founder of TH Analytica and creator of the AI readiness and visibility framework."
+  }
+]
