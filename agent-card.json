@@ -1,0 +1,25 @@
+{
+  "name": "TH Analytica Agent",
+  "version": "1.0",
+  "description": "Agent card describing the capabilities and functions of the TH Analytica framework for AI visibility and readiness.",
+  "llms": ["gpt-4", "claude-v2", "gemini-pro"],
+  "core_concepts": {
+    "semantic_friction": "Minimise ambiguous or conflicting terminology to help AI systems understand your domain.",
+    "agent_readiness": "Design data and processes so that AI agents can operate autonomously with minimal ambiguity.",
+    "ai_actionability": "Ensure information is structured in a way that AI systems can act upon."
+  },
+  "actions": [
+    {
+      "name": "ai_readiness_assessment",
+      "description": "Evaluate the AI readiness of a given website or business process."
+    },
+    {
+      "name": "ai_visibility_review",
+      "description": "Review and suggest improvements to the AI visibility of a website or digital asset."
+    }
+  ],
+  "contact": {
+    "maintainer": "Thomas Hullin",
+    "website": "https://th-analytica.com"
+  }
+}
