@@ -1,0 +1,22 @@
+{
+  "semantic_friction": [
+    "Ambiguity reduction",
+    "Terminology consistency",
+    "Cross-language clarity"
+  ],
+  "agent_readiness": [
+    "Process documentation",
+    "API access",
+    "Security and governance"
+  ],
+  "ai_actionability": [
+    "Structured data",
+    "Entity linking",
+    "Actionable workflows"
+  ],
+  "ai_visibility": [
+    "Structured data (schema.org)",
+    "External references",
+    "Balanced optimization"
+  ]
+}
