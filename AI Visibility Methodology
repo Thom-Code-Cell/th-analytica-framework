@@ -1,7 +1,7 @@
 ## AI Visibility Methodology
 
-The AI Visibility methodology describes how likely a website is to be referenced by artificial intelligence systems.
+The AI Visibility methodology assesses observable conditions that may help a website be discovered, retrieved and interpreted by artificial intelligence systems.
 
-AI systems such as ChatGPT, Gemini, Claude or Perplexity select sources based on clarity, structure and trust signals.
+Source selection varies by product and may combine training data, search indexes, retrieval, live fetching and ranking. Clarity, structure and trust signals are reviewable inputs, not a complete model of proprietary selection systems.
 
-The TH Analytica Framework evaluates these elements to estimate how visible a website may become in AI-generated answers.
+The TH Analytica Framework evaluates these elements to identify gaps and prioritise improvements. It does not estimate a guaranteed mention or recommendation rate.

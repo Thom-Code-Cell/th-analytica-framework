@@ -15,13 +15,13 @@
     "id": "agent_readiness",
     "name": "Agent Readiness",
     "type": "concept",
-    "description": "The degree to which an organisation's data and processes are prepared for AI agents to operate autonomously."
+    "description": "The degree to which an organisation's public information, permissions and processes are prepared for AI-assisted interpretation and human-approved actions."
   },
   {
     "id": "ai_actionability",
     "name": "AI Actionability",
     "type": "concept",
-    "description": "Ensuring information is structured in a way that AI systems can act upon to deliver outcomes."
+    "description": "Structuring information so systems can identify possible actions and their constraints without implying autonomous execution."
   },
   {
     "id": "thomas_hullin",

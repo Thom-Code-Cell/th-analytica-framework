@@ -10,7 +10,7 @@ It includes factors such as structure, semantic clarity and trust signals.
 
 ## AI Visibility
 
-AI Visibility describes the likelihood that a company is mentioned or recommended by AI systems.
+AI Visibility describes the observable and testable conditions under which an organisation may be discovered, retrieved, understood, cited or mentioned by AI-assisted systems. It is not a probability or guarantee of recommendation.
 
 ---
 
@@ -22,4 +22,10 @@ AI Readability refers to how easily AI systems can understand the content and me
 
 ## Agent-Ready Website
 
-An agent-ready website is structured in a way that automated systems and AI agents can interpret its content without ambiguity.
+An agent-ready website exposes clear information, roles, actions and constraints so automated systems can interpret possible next steps. Sensitive or consequential actions require authentication, authorisation and human approval.
+
+---
+
+## Open-Web Presence
+
+Open-Web Presence records whether public content can be found in selected search indexes or public corpora such as Common Crawl. It does not establish that the content was used for model training or will be retrieved for a specific query.
