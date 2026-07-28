@@ -4,16 +4,27 @@ This document summarises the core guidelines for AI Visibility and AI Readiness 
 
 ### AI Visibility Guidelines
 
-- **Structured Data**: Ensure all important information is encoded using structured data standards (e.g. Schema.org, JSON-LD) so that AI can parse and understand your content.
+- **Structured Data**: Encode applicable, visible and verified information with standards such as Schema.org and JSON-LD. Structured data can reduce ambiguity but does not guarantee use by an AI product.
 - **Semantic Consistency**: Use clear, unambiguous terminology across your site. Align your wording with commonly used concepts in your domain to reduce semantic friction.
-- **External References**: Provide citations and references to external authoritative sources. AI systems cross-reference claims; independent validation increases trust.
+- **External References**: Provide natural, relevant citations to authoritative sources. Independent corroboration can support verification, but provider behaviour varies.
 - **Balanced Optimization**: Avoid over-optimizing solely for AI systems. Maintain readability for humans and naturalness for search engines to prevent algorithmic downgrading.
 
 ### AI Readiness Guidelines
 
 - **Process Clarity**: Document your key business processes and workflows in a way that can be consumed by AI agents. Clear steps and roles reduce friction.
 - **Entity Linking**: Map your organisation’s key entities (people, products, services) to consistent identifiers so AI can reference them correctly.
-- **Agent Interoperability**: Ensure that data and documentation are accessible via APIs or standard formats so that AI agents can interact with your system.
+- **Agent Interoperability**: Where appropriate, expose documented APIs or standard formats. Do not imply permission for autonomous transactions.
 - **Security & Governance**: Implement appropriate access controls and governance mechanisms to protect sensitive data while enabling AI operation.
 
 For detailed examples and definitions, consult the framework documents and definitions.md in this repository.
+
+### Boundaries
+
+- Crawler access is not permission for model training.
+- A public corpus record is not proof of model training.
+- Model training is not proof of query-time retrieval.
+- Retrieval does not guarantee citation, mention or recommendation.
+- Files such as `ai.txt` and `llms.txt` are informational and have provider-dependent support.
+- Consequential actions require explicit human approval.
+
+Canonical website: https://th-analytica.com

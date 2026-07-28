@@ -1,76 +1,37 @@
 # TH Analytica Framework
 
-The TH Analytica Framework is a methodology for analysing the AI readiness and AI visibility of websites.
+The TH Analytica Framework is a methodology for assessing the technical and semantic conditions that help people, search systems and AI-assisted retrieval interpret a website consistently.
 
-It evaluates how clearly a website can be understood and referenced by artificial intelligence systems such as:
+It reviews:
 
-- ChatGPT
-- Gemini
-- Claude
-- Perplexity
+- technical accessibility and crawlability
+- semantic and entity clarity
+- structured data and content architecture
+- trust, authorship and external corroboration
+- agent readiness, action boundaries and human approval
 
-The framework analyses several dimensions including:
+The framework does not guarantee crawling, indexing, model training, citations, mentions, recommendations, leads or revenue. Different AI products use different combinations of training data, search indexes, retrieval systems and live fetches.
 
-- technical accessibility
-- semantic clarity
-- structured data
-- trust signals
-- content structure
+## Seven assessment dimensions
 
-Website:
-https://th-analytica.com
+1. Technical Foundation
+2. Search and Open-Web Presence
+3. Semantic Clarity
+4. Trust Signals
+5. Strategic Communication
+6. Context and AI Readability
+7. Agent Readiness and Governance
 
-Framework documentation:
-https://github.com/Thom-Code-Zelle/th-analytica-framework
-# TH Analytica Framework
+## Documents
 
-The TH Analytica Framework is a methodology for analysing how well websites can be understood and recommended by AI systems such as ChatGPT, Gemini, Claude or Perplexity.
+- [Framework methodology](framework.md)
+- [Definitions](definitions.md)
+- [AI Visibility Methodology](AI%20Visibility%20Methodology)
+- [AI Readiness Analysis](AI%20Readiness%20Analysis)
+- [Machine-readable summary](llms.txt)
 
-The framework evaluates AI Readiness and AI Visibility of websites.
+For services, implementation guidance and current contact details, visit [TH Analytica](https://th-analytica.com).
 
----
+Maintainer: Thomas Hullin
 
-## Core Concepts
-
-AI Readability  
-AI Visibility  
-Agent-Ready Websites  
-AI Trust Signals  
-
----
-
-## The 7-Axis AI Visibility Model
-
-The TH Analytica Framework evaluates websites across seven dimensions.
-
-1. Technical Foundation  
-2. Search Visibility  
-3. Semantic Clarity  
-4. Trust Signals  
-5. Strategic Communication  
-6. Context & Clarity  
-7. Automation & Agent Readiness  
-
-These dimensions determine how well a company can be interpreted by modern AI systems.
-
----
-
-## Purpose of the Framework
-
-The goal of TH Analytica is to help companies understand:
-
-• whether their website can be interpreted by AI systems  
-• whether their business is clearly defined as an entity  
-• whether AI systems can recommend the company as a source.
-
----
-
-## Website
-
-https://th-analytica.com
-
----
-
-## Contact
-
-thhullin@gmail.com
+Contact: thomas@th-analytica.com
