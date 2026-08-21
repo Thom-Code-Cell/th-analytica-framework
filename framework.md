@@ -31,6 +31,26 @@ How clearly automated systems can interpret available actions, constraints and a
 
 ---
 
+# Optional Data Layer: Natural Query & AI Intent
+
+Future full analyses may activate an optional Natural Query & AI Intent Layer. This layer connects real first-party Google Search Console demand with semantic website analysis and separate AI-answer testing.
+
+It is not an AI-prompt detector. Search Console data must never be used to claim that a query came from ChatGPT, Gemini, AI Overviews or another AI product.
+
+Every analysis records one of three data states:
+
+- **GSC LIVE DATA** – authorised Search Console access is available.
+- **GSC EXPORT DATA** – the customer or its agency supplies CSV/XLSX data; this is the preferred low-friction mode where direct access is unnecessary.
+- **PUBLIC INTENT MODEL** – no first-party GSC data is available; likely natural-language intents are modeled from public signals and must be labelled as modeled rather than observed demand.
+
+When GSC data is available, the analysis can classify natural-language query clusters, map them to JTBD and decision intent, measure Answer Coverage and Semantic Alignment, assign a Prompt Opportunity Score, and convert priority clusters into answer blocks, FAQ improvements, service-page clarifications and controlled AI test prompts.
+
+The analysis should also record whether the customer itself has appropriate access to Search Console, GA4, Google Business Profile, Bing Webmaster Tools and Tag Manager where relevant. Agency management is compatible with the framework, but business-critical properties should ideally remain accessible to the customer as owner/admin or equivalent.
+
+Full methodology and reporting rules: `natural-query-ai-intent-layer.md`.
+
+---
+
 # AI Visibility Radar
 
 The framework visualizes these dimensions using an AI Visibility Radar.
@@ -46,6 +66,7 @@ The TH Analytica Framework can be used for:
 • AI Readiness analysis of websites  
 • evaluation of AI visibility  
 • improving structured information for AI systems
+• optional analysis of natural-language search demand when first-party GSC data is available
 
 ---
 
