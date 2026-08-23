@@ -2,7 +2,7 @@
 
 The TH Analytica Framework assesses observable website signals that can support technical access, retrieval and reliable interpretation by search and AI-assisted systems.
 
-It complements traditional SEO analysis with semantic clarity, machine-readable context, open-web presence, governance and agent-readiness checks. It cannot observe proprietary model internals or guarantee a downstream result.
+It complements traditional SEO analysis with semantic clarity, machine-readable context, open-web presence, governance, agent-readiness and AI-visibility resilience checks. It cannot observe proprietary model internals or guarantee a downstream result.
 
 ---
 
@@ -29,6 +29,13 @@ How clearly the website explains what the company does.
 ## 7 Agent Readiness and Governance
 How clearly automated systems can interpret available actions, constraints and approval steps. Real-world actions remain subject to security controls and explicit human approval.
 
+## 8 Source Concentration & AI Visibility Resilience
+How strongly observed AI visibility depends on individual source families or individual AI/search systems. Full analyses should distinguish first-party resilience from third-party dependence and flag concentration risk where one source ecosystem or one AI system dominates the result.
+
+The assessment uses observable citations, source-bearing answers and controlled cross-system tests. It does not infer hidden ranking factors, training data or proprietary model internals.
+
+Full methodology and reporting rules: `source-concentration-risk.md`.
+
 ---
 
 # Optional Data Layer: Natural Query & AI Intent
@@ -53,9 +60,11 @@ Full methodology and reporting rules: `natural-query-ai-intent-layer.md`.
 
 # AI Visibility Radar
 
-The framework visualizes these dimensions using an AI Visibility Radar.
+The framework visualizes core dimensions using an AI Visibility Radar.
 
 The radar helps companies prioritise observable structural weaknesses. A higher assessment score does not promise that an AI product will mention or recommend a company.
+
+Source Concentration & AI Visibility Resilience should normally be reported separately as a concentration-risk view because it is based on cross-system output observations rather than only on website structure.
 
 ---
 
@@ -65,6 +74,7 @@ The TH Analytica Framework can be used for:
 
 • AI Readiness analysis of websites  
 • evaluation of AI visibility  
+• evaluation of source concentration and cross-system visibility risk  
 • improving structured information for AI systems
 • optional analysis of natural-language search demand when first-party GSC data is available
 
@@ -79,3 +89,5 @@ The TH Analytica Framework can be used for:
 - **Generation** produces an answer and may still omit a technically accessible source.
 
 Files such as `robots.txt`, `ai.txt` and `llms.txt` can communicate preferences and context, but support differs by provider. They do not override law, contracts or provider-specific controls.
+
+Crawler identities should be evaluated by function. Training crawlers, search/retrieval crawlers and user-triggered fetchers must not automatically be treated as equivalent.
