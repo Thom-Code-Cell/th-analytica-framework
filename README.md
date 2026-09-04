@@ -26,6 +26,7 @@ The framework does not guarantee crawling, indexing, model training, citations, 
 
 - [Framework methodology](framework.md)
 - [Definitions](definitions.md)
+- [Evidence-First Content and Citation Readiness Standard](evidence-first-content-standard.md)
 - [AI Visibility Methodology](AI%20Visibility%20Methodology)
 - [AI Readiness Analysis](AI%20Readiness%20Analysis)
 - [Machine-readable summary](llms.txt)

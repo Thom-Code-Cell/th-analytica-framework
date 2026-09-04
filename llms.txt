@@ -15,3 +15,8 @@ Important distinction: crawling, corpus presence, model training, query-time ret
 
 Canonical website: https://th-analytica.com
 Contact: thomas@th-analytica.com
+
+## Evidence-First Content Standard
+- https://github.com/Thom-Code-Cell/th-analytica-framework/blob/main/evidence-first-content-standard.md
+- One primary intent, direct answer first, explicit entity definitions, sourced claims, visible authorship and measurement separation.
+- No guarantee language, invented ranking factors, rigid statistic quotas or correlation presented as causation.

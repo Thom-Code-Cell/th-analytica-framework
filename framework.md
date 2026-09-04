@@ -91,3 +91,14 @@ The TH Analytica Framework can be used for:
 Files such as `robots.txt`, `ai.txt` and `llms.txt` can communicate preferences and context, but support differs by provider. They do not override law, contracts or provider-specific controls.
 
 Crawler identities should be evaluated by function. Training crawlers, search/retrieval crawlers and user-triggered fetchers must not automatically be treated as equivalent.
+---
+
+# Evidence-First Content and Citation Readiness
+
+Every indexable knowledge, service and case-study page should resolve one primary user question or decision, provide a direct answer first, define important entities and support material claims with a primary source, reproducible first-party measurement or explicit evidence label.
+
+The module rejects rigid word-count formulas, invented ranking factors and causal claims based only on sequence. It keeps search performance, observed AI output, business actions and governance or agent-readiness signals separate.
+
+Editorial pages should expose author and dates. Structured data and machine-readable representations must match visible content. Files such as llms.txt or ai.txt may provide context where supported but are not universal standards or proof of retrieval.
+
+Full controls, page template and audit checklist: evidence-first-content-standard.md.
