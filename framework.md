@@ -2,7 +2,9 @@
 
 The TH Analytica Framework assesses observable website signals that can support technical access, retrieval and reliable interpretation by search and AI-assisted systems.
 
-It complements traditional SEO analysis with semantic clarity, machine-readable context, open-web presence, governance, agent-readiness and AI-visibility resilience checks. It cannot observe proprietary model internals or guarantee a downstream result.
+It complements traditional SEO analysis with semantic clarity, machine-readable context, open-web presence, governance, agent-readiness and AI-visibility resilience checks. It can also extend governance analysis into physical places where AI-capable devices or agents may sense, record, analyse, transmit or act.
+
+It cannot observe proprietary model internals or guarantee a downstream result.
 
 ---
 
@@ -29,12 +31,41 @@ How clearly the website explains what the company does.
 ## 7 Agent Readiness and Governance
 How clearly automated systems can interpret available actions, constraints and approval steps. Real-world actions remain subject to security controls and explicit human approval.
 
+Governance analysis should distinguish policy from technical enforcement. A declared rule does not prove that a device or agent can be forced to comply.
+
+For physical places, the framework uses the model:
+
+**Policy → Context → Enforcement → Responsibility → Audit**
+
+The corresponding optional module is documented in `physical-ai-governance.md`.
+
 ## 8 Source Concentration & AI Visibility Resilience
 How strongly observed AI visibility depends on individual source families or individual AI/search systems. Full analyses should distinguish first-party resilience from third-party dependence and flag concentration risk where one source ecosystem or one AI system dominates the result.
 
 The assessment uses observable citations, source-bearing answers and controlled cross-system tests. It does not infer hidden ranking factors, training data or proprietary model internals.
 
 Full methodology and reporting rules: `source-concentration-risk.md`.
+
+---
+
+# Optional Module: Physical AI Governance & Agent Readiness
+
+This module applies when AI-capable devices, agents, wearables or sensors interact with a physical place.
+
+It assesses:
+
+- which capabilities are permitted, restricted or prohibited
+- how rules vary by physical zone, time or operational context
+- whether policies are visible and/or machine-readable
+- whether compatible systems can warn, request approval or technically enforce restrictions
+- who owns policies, exceptions and incident handling
+- whether material actions can be audited without creating unnecessary surveillance
+
+Typical places include swimming facilities, hotels, hospitals, schools, offices, production sites, museums, events and authorities.
+
+The module treats a **digital house rule** as a machine-readable, context-specific policy concept. It does not claim that a universal standard or universal enforcement mechanism exists.
+
+Full methodology and reporting rules: `physical-ai-governance.md`.
 
 ---
 
@@ -75,8 +106,9 @@ The TH Analytica Framework can be used for:
 • AI Readiness analysis of websites  
 • evaluation of AI visibility  
 • evaluation of source concentration and cross-system visibility risk  
-• improving structured information for AI systems
-• optional analysis of natural-language search demand when first-party GSC data is available
+• improving structured information for AI systems  
+• optional analysis of natural-language search demand when first-party GSC data is available  
+• AI Governance and Agent Readiness analysis for physical places where AI-capable devices or agents operate
 
 ---
 
