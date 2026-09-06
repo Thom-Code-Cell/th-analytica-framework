@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you reference the TH Analytica Framework, please cite it using this metadata."
+title: "TH Analytica Framework"
+type: software
+authors:
+  - family-names: "Hullin"
+    given-names: "Thomas"
+    affiliation: "TH Analytica"
+    email: "thomas@th-analytica.com"
+url: "https://th-analytica.com/methodik"
+repository-code: "https://github.com/Thom-Code-Cell/th-analytica-framework"
+abstract: >-
+  A public methodology for assessing the technical and semantic conditions
+  that help people, search systems and AI-assisted retrieval interpret a
+  website consistently. It covers accessibility, entity clarity, structured
+  data, evidence, citation readiness, agent readiness, governance and human
+  approval. The framework does not guarantee rankings, citations, mentions,
+  recommendations, leads or revenue.
+keywords:
+  - "AI Visibility"
+  - "Agent Readiness"
+  - "AI Citation Readiness"
+  - "Entity Clarity"
+  - "Structured Data"
+  - "AI Governance"
