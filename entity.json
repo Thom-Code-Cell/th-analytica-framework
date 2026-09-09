@@ -3,7 +3,7 @@
     "id": "th_analytica",
     "name": "TH Analytica",
     "type": "framework",
-    "description": "A methodology for analysing AI readiness and visibility of websites."
+    "description": "A methodology for analysing AI readiness, AI visibility, agent readiness and governance across digital assets and, where relevant, physical places."
   },
   {
     "id": "semantic_friction",
@@ -22,6 +22,18 @@
     "name": "AI Actionability",
     "type": "concept",
     "description": "Structuring information so systems can identify possible actions and their constraints without implying autonomous execution."
+  },
+  {
+    "id": "physical_ai_governance",
+    "name": "Physical AI Governance",
+    "type": "concept",
+    "description": "Context-specific governance for AI-capable devices, wearables, sensors or agents operating in physical places, assessed through Policy, Context, Enforcement, Responsibility and Audit."
+  },
+  {
+    "id": "digital_house_rules",
+    "name": "Digital House Rules",
+    "type": "concept",
+    "description": "Machine-readable, context-specific usage rules for physical places or zones. The term is descriptive and does not imply a universal technical standard."
   },
   {
     "id": "thomas_hullin",

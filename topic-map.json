@@ -7,7 +7,8 @@
   "agent_readiness": [
     "Process documentation",
     "API access",
-    "Security and governance"
+    "Security and governance",
+    "Human approval boundaries"
   ],
   "ai_actionability": [
     "Structured data",
@@ -18,5 +19,13 @@
     "Structured data (schema.org)",
     "External references",
     "Balanced optimization"
+  ],
+  "physical_ai_governance": [
+    "Policy",
+    "Context and zoning",
+    "Enforcement maturity",
+    "Responsibility and approvals",
+    "Auditability",
+    "Digital house rules"
   ]
 }

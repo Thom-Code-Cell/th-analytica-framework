@@ -26,6 +26,34 @@ An agent-ready website exposes clear information, roles, actions and constraints
 
 ---
 
+## AI Governance
+
+AI Governance describes the rules, responsibilities, approval boundaries and controls that determine what AI-assisted systems may do, under which conditions and with what accountability.
+
+---
+
+## Physical AI Governance
+
+Physical AI Governance applies governance rules to physical places where AI-capable devices, wearables, sensors or agents may sense, record, analyse, transmit or act.
+
+The TH Analytica model is:
+
+**Policy → Context → Enforcement → Responsibility → Audit**
+
+A declared policy is not the same as verified technical enforcement.
+
+---
+
+## Digital House Rules
+
+Digital House Rules are machine-readable, context-specific usage rules for a physical place or zone.
+
+They may describe permitted, restricted or prohibited capabilities, approval requirements, ownership, version and effective conditions.
+
+This is a descriptive framework concept, not a claim that a universal industry standard exists.
+
+---
+
 ## Open-Web Presence
 
 Open-Web Presence records whether public content can be found in selected search indexes or public corpora such as Common Crawl. It does not establish that the content was used for model training or will be retrieved for a specific query.
