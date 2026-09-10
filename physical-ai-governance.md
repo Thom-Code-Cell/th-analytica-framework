@@ -24,6 +24,12 @@ A compatible client should fetch the policy only over HTTPS, verify the issuer, 
 
 An arbitrary QR code must never silently change hardware state. Vendor-native support may only be reported when it has been directly tested and documented.
 
+## Geographic anchoring
+
+A customer implementation connects one canonical venue identifier with a structured postal address, coordinates for the public venue or publicly accessible main entrance, verified map URLs, and written building and zone boundaries. Coordinates identify the venue or entrance; indoor boundaries remain explicit descriptions connected to Entry and Exit markers.
+
+Only public coordinates are published. Exact coordinates for patient rooms, classrooms, protected collections, staff-only areas and other sensitive zones are excluded. The on-site record retains the verified address, entrance, map profiles, marker locations, boundary descriptions, review date and responsible approver.
+
 ## Evidence labels
 
 - **Implemented:** public schema, discovery document, demo policy, Entry and Exit states, consistency tests.
