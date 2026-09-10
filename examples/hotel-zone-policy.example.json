@@ -1,0 +1,57 @@
+{
+  "$schema": "https://th-analytica.com/schemas/physical-ai-governance-v0.1.schema.json",
+  "specVersion": "0.1",
+  "status": "experimental",
+  "policyId": "urn:tha:physical-ai-governance:example-hotel:restaurant:v0.1",
+  "canonicalUrl": "https://example.invalid/physical-ai-governance/restaurant.json",
+  "issuer": {
+    "name": "Example Hotel",
+    "url": "https://example.invalid",
+    "contact": "privacy@example.invalid"
+  },
+  "venue": {
+    "id": "https://example.invalid/#hotel",
+    "name": "Example Hotel",
+    "type": "Hotel"
+  },
+  "zone": {
+    "id": "restaurant",
+    "name": "Restaurant",
+    "boundaryDescription": "The zone starts at the marked entrance and ends at the marked exit.",
+    "entryMarkerUrl": "https://example.invalid/physical-ai-governance?state=entry&zone=restaurant",
+    "exitMarkerUrl": "https://example.invalid/physical-ai-governance?state=exit&zone=restaurant"
+  },
+  "restrictions": {
+    "photography": "prohibited",
+    "videoRecording": "prohibited",
+    "audioRecording": "prohibited",
+    "liveStreaming": "prohibited",
+    "visualAnalysis": "restricted",
+    "biometricIdentification": "prohibited"
+  },
+  "activation": {
+    "method": "explicit-visual-entry-marker",
+    "requiresUserNotice": true,
+    "requiresAcknowledgement": true
+  },
+  "deactivation": {
+    "method": "explicit-visual-exit-marker",
+    "manualOverrideAvailable": true,
+    "maximumDurationMinutes": 120
+  },
+  "humanNotice": {
+    "de-CH": "Foto-, Video- und Audioaufnahmen sind in diesem Bereich nicht gestattet.",
+    "en": "Photography, video and audio recording are prohibited in this area."
+  },
+  "enforcement": {
+    "mode": "advisory",
+    "scope": "compatible-client-only",
+    "deviceControlGuaranteed": false
+  },
+  "security": {
+    "httpsRequired": true,
+    "trustedIssuerRequired": true,
+    "silentHardwareChangesAllowed": false
+  },
+  "updatedAt": "2026-09-10T00:00:00Z"
+}

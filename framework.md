@@ -36,6 +36,16 @@ The assessment uses observable citations, source-bearing answers and controlled 
 
 Full methodology and reporting rules: `source-concentration-risk.md`.
 
+## 9 Physical AI Readiness & Visual Governance
+
+How clearly a physical venue can be identified and how its rules for photography, video, audio, livestreaming, visual AI analysis and biometric identification are communicated to people and compatible AI clients.
+
+This experimental dimension assesses canonical venue identity, visible human notices, an HTTPS policy, Entry and Exit QR markers, bounded validity, manual override and evidence of client support. It does not claim that a QR code can universally disable third-party cameras, microphones or AI glasses.
+
+Every full analysis must pass through an applicability gate. A physical venue activates the detailed review. A purely digital business is recorded as **not applicable**, and this dimension is excluded from the overall score. An unknown status remains open for human review and must not be scored.
+
+Full specification and reporting rules: `physical-ai-governance.md` and `full-analysis-physical-ai-governance.md`.
+
 ---
 
 # Optional Data Layer: Natural Query & AI Intent
@@ -77,6 +87,7 @@ The TH Analytica Framework can be used for:
 • evaluation of source concentration and cross-system visibility risk  
 • improving structured information for AI systems
 • optional analysis of natural-language search demand when first-party GSC data is available
+• physical-place identity and visual governance for venues where the module is applicable
 
 ---
 

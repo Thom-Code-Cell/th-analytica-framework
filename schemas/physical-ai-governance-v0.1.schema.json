@@ -1,0 +1,136 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://th-analytica.com/schemas/physical-ai-governance-v0.1.schema.json",
+  "title": "TH Analytica Physical AI Governance Policy",
+  "description": "Experimental, advisory policy format for communicating venue and zone rules to people and compatible AI clients. It does not itself control device hardware.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "specVersion",
+    "status",
+    "policyId",
+    "canonicalUrl",
+    "issuer",
+    "venue",
+    "zone",
+    "restrictions",
+    "activation",
+    "deactivation",
+    "humanNotice",
+    "enforcement",
+    "security",
+    "updatedAt"
+  ],
+  "properties": {
+    "specVersion": { "const": "0.1" },
+    "status": { "const": "experimental" },
+    "policyId": { "type": "string", "minLength": 8 },
+    "canonicalUrl": { "type": "string", "format": "uri", "pattern": "^https://" },
+    "issuer": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["name", "url", "contact"],
+      "properties": {
+        "name": { "type": "string", "minLength": 2 },
+        "url": { "type": "string", "format": "uri", "pattern": "^https://" },
+        "contact": { "type": "string", "format": "email" }
+      }
+    },
+    "venue": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "name", "type"],
+      "properties": {
+        "id": { "type": "string", "format": "uri" },
+        "name": { "type": "string", "minLength": 2 },
+        "type": { "type": "string", "minLength": 2 },
+        "address": { "type": "string" }
+      }
+    },
+    "zone": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "name", "boundaryDescription", "entryMarkerUrl", "exitMarkerUrl"],
+      "properties": {
+        "id": { "type": "string", "minLength": 3 },
+        "name": { "type": "string", "minLength": 2 },
+        "boundaryDescription": { "type": "string", "minLength": 10 },
+        "entryMarkerUrl": { "type": "string", "format": "uri", "pattern": "^https://" },
+        "exitMarkerUrl": { "type": "string", "format": "uri", "pattern": "^https://" }
+      }
+    },
+    "restrictions": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["photography", "videoRecording", "audioRecording", "liveStreaming", "visualAnalysis", "biometricIdentification"],
+      "properties": {
+        "photography": { "$ref": "#/$defs/rule" },
+        "videoRecording": { "$ref": "#/$defs/rule" },
+        "audioRecording": { "$ref": "#/$defs/rule" },
+        "liveStreaming": { "$ref": "#/$defs/rule" },
+        "visualAnalysis": { "$ref": "#/$defs/rule" },
+        "biometricIdentification": { "$ref": "#/$defs/rule" }
+      }
+    },
+    "activation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["method", "requiresUserNotice", "requiresAcknowledgement"],
+      "properties": {
+        "method": { "const": "explicit-visual-entry-marker" },
+        "requiresUserNotice": { "const": true },
+        "requiresAcknowledgement": { "const": true }
+      }
+    },
+    "deactivation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["method", "manualOverrideAvailable", "maximumDurationMinutes"],
+      "properties": {
+        "method": { "const": "explicit-visual-exit-marker" },
+        "manualOverrideAvailable": { "const": true },
+        "maximumDurationMinutes": { "type": "integer", "minimum": 1, "maximum": 1440 }
+      }
+    },
+    "humanNotice": {
+      "type": "object",
+      "required": ["de-CH", "en"],
+      "additionalProperties": { "type": "string", "minLength": 10 },
+      "properties": {
+        "de-CH": { "type": "string", "minLength": 10 },
+        "fr-CH": { "type": "string", "minLength": 10 },
+        "it-CH": { "type": "string", "minLength": 10 },
+        "en": { "type": "string", "minLength": 10 }
+      }
+    },
+    "enforcement": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["mode", "scope", "deviceControlGuaranteed"],
+      "properties": {
+        "mode": { "const": "advisory" },
+        "scope": { "const": "compatible-client-only" },
+        "deviceControlGuaranteed": { "const": false }
+      }
+    },
+    "security": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["httpsRequired", "trustedIssuerRequired", "silentHardwareChangesAllowed"],
+      "properties": {
+        "httpsRequired": { "const": true },
+        "trustedIssuerRequired": { "const": true },
+        "silentHardwareChangesAllowed": { "const": false },
+        "signatureUrl": { "type": "string", "format": "uri", "pattern": "^https://" }
+      }
+    },
+    "updatedAt": { "type": "string", "format": "date-time" }
+  },
+  "$defs": {
+    "rule": {
+      "type": "string",
+      "enum": ["permitted", "prohibited", "restricted", "not-specified"]
+    }
+  }
+}
+
