@@ -15,7 +15,7 @@ Only **applicable** cases receive a detailed assessment. **Not applicable** and 
 
 ## Required checks for an applicable venue
 
-1. canonical venue identity, address and source consistency;
+1. canonical venue identifier, structured address, public-entrance coordinates, map profiles and source consistency;
 2. public house rules and responsible issuer;
 3. human-readable notice at each relevant boundary;
 4. separate policies for photo, video, audio, livestream, visual analysis and biometric identification;
@@ -24,7 +24,8 @@ Only **applicable** cases receive a detailed assessment. **Not applicable** and 
 7. explicit acknowledgement, manual override and maximum duration;
 8. validation of QR destination, JSON syntax, schema conformance and stale-policy behavior;
 9. device or client support reported by evidence level, never by assumption;
-10. legal and operational review recorded separately from technical readiness.
+10. legal and operational review recorded separately from technical readiness;
+11. privacy check confirming that only public coordinates are published and no sensitive indoor location is exposed.
 
 ## Reporting language
 
