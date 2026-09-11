@@ -42,7 +42,7 @@ How clearly a physical venue can be identified and how its rules for photography
 
 This experimental dimension assesses canonical venue identity, visible human notices, an HTTPS policy, Entry and Exit QR markers, bounded validity, manual override and evidence of client support. It does not claim that a QR code can universally disable third-party cameras, microphones or AI glasses.
 
-Every full analysis must pass through an applicability gate. A physical venue activates the detailed review. A purely digital business is recorded as **not applicable**, and this dimension is excluded from the overall score. An unknown status remains open for human review and must not be scored.
+Every full analysis must pass through an applicability gate. A relevant venue operated or controlled by the organisation activates the detailed review. If the analysed offer has no such venue, it is recorded as **not applicable**, and this dimension is excluded from the overall score. An unknown status remains open for human review and must not be scored.
 
 Full specification and reporting rules: `physical-ai-governance.md` and `full-analysis-physical-ai-governance.md`.
 
