@@ -8,7 +8,7 @@ Effective: 2026-09-10
 Every TH Analytica full analysis records exactly one applicability state for Physical AI Governance:
 
 - **applicable:** the organisation operates a customer, patient, guest, visitor or staff venue where visual or audio recording rules matter;
-- **not applicable:** the analysed offer is purely digital and has no relevant physical venue;
+- **not applicable:** the analysed offer has no relevant venue operated or controlled by the organisation where Physical AI Governance rules would apply;
 - **open:** the available evidence is insufficient and a human reviewer must decide before delivery.
 
 Only **applicable** cases receive a detailed assessment. **Not applicable** and **open** cases are excluded from the overall score.
