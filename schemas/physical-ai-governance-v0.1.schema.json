@@ -6,6 +6,7 @@
   "type": "object",
   "additionalProperties": false,
   "required": [
+    "$schema",
     "specVersion",
     "status",
     "policyId",
@@ -22,6 +23,7 @@
     "updatedAt"
   ],
   "properties": {
+    "$schema": { "type": "string", "format": "uri" },
     "specVersion": { "const": "0.1" },
     "status": { "const": "experimental" },
     "policyId": { "type": "string", "minLength": 8 },
