@@ -29,3 +29,15 @@ An agent-ready website exposes clear information, roles, actions and constraints
 ## Open-Web Presence
 
 Open-Web Presence records whether public content can be found in selected search indexes or public corpora such as Common Crawl. It does not establish that the content was used for model training or will be retrieved for a specific query.
+
+---
+
+## Physical AI Readiness
+
+Physical AI Readiness describes whether a real-world venue is consistently identified across its website, structured data and public profiles, and whether local rules can be clearly communicated to people and compatible multimodal AI clients.
+
+---
+
+## Visual Governance Marker
+
+A Visual Governance Marker is a visible Entry or Exit QR marker that links to an HTTPS policy for a defined physical zone. It is advisory in version 0.1 and does not itself control third-party device hardware.
