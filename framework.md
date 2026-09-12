@@ -68,6 +68,18 @@ Full methodology and reporting rules: `natural-query-ai-intent-layer.md`.
 
 ---
 
+# Sector Module: Tourism & Hospitality Data Readiness
+
+Hotel, accommodation and destination analyses activate a sector-specific module for the quality and consistency of tourism data. It reviews the canonical property identity, a maintained hospitality attribute inventory and the distribution of those facts across the first-party website, structured data, Google Business Profile, booking platforms, destination or tourism information systems and other relevant data hubs.
+
+The module records field-level agreement, provenance, ownership, freshness and update responsibility. Dynamic facts such as prices and availability must be time-stamped and assessed separately from stable facts such as address, room type or accessibility. A third-party platform is not treated as authoritative merely because it repeats a claim.
+
+Schema.org and JSON-LD are assessed as machine-readable representations of visible, supported facts. Their presence can improve explicitness and entity resolution, but it is not evidence that an AI product will crawl, retrieve, cite, select or recommend the property.
+
+Full controls, evidence rules and machine-readable output: `tourism-hospitality-data-readiness.md` and `schemas/tourism-hospitality-data-readiness-v0.1.schema.json`.
+
+---
+
 # AI Visibility Radar
 
 The framework visualizes core dimensions using an AI Visibility Radar.
@@ -88,6 +100,7 @@ The TH Analytica Framework can be used for:
 • improving structured information for AI systems
 • optional analysis of natural-language search demand when first-party GSC data is available
 • physical-place identity and visual governance for venues where the module is applicable
+• tourism and hospitality data-ecosystem readiness for hotels, accommodation providers and destinations
 
 ---
 

@@ -1,0 +1,35 @@
+{
+  "specVersion": "0.1",
+  "applicability": "applicable",
+  "assessedAt": "2026-09-12T09:00:00Z",
+  "entityId": "https://example-hotel.invalid/#hotel",
+  "notes": "Illustrative record only. It is not an assessment of a real property.",
+  "controls": [
+    {
+      "controlId": "THDR-C-01",
+      "family": "cross_surface_consistency",
+      "status": "conflicting",
+      "owner": "Hotel operations",
+      "recommendation": "Confirm the authoritative reception hours and update every downstream surface.",
+      "evidence": [
+        {
+          "surface": "Official website",
+          "url": "https://example-hotel.invalid/contact",
+          "claim": "Reception closes at 20:00",
+          "observedValue": "20:00",
+          "capturedAt": "2026-09-12T08:55:00Z",
+          "evidenceClass": "first_party",
+          "provenance": "Visible contact page"
+        },
+        {
+          "surface": "Example booking platform",
+          "claim": "Reception closes at 22:00",
+          "observedValue": "22:00",
+          "capturedAt": "2026-09-12T08:58:00Z",
+          "evidenceClass": "platform_managed",
+          "provenance": "Property listing"
+        }
+      ]
+    }
+  ]
+}

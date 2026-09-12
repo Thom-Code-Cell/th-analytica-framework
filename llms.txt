@@ -9,6 +9,7 @@ This file summarises the public TH Analytica Framework for systems that choose t
 - **Multilingual Capabilities**: Support for multiple languages ensures the framework works across international websites.
 - **Continuous Learning**: Be prepared to upgrade models as new capabilities and safety improvements are released.
 - **Physical AI Readiness**: For a business with a physical venue, review canonical place identity, visible house rules, Entry and Exit QR markers, bounded policy duration and manual override. The v0.1 format is experimental and advisory; it does not guarantee that third-party AI glasses will recognise or enforce a policy.
+- **Tourism & Hospitality Data Readiness**: For hotels, accommodation providers and destinations, review a source-backed attribute inventory and field-level consistency across the official website, structured data, business profiles, OTAs, DMO/TIS platforms and relevant national data hubs. Keep semantic readiness separate from recommendation and transaction outcomes.
 
 For more details see the AI Visibility and AI Readiness guides in this repository.
 
@@ -19,6 +20,7 @@ Contact: thomas@th-analytica.com
 
 Physical AI Governance specification: https://github.com/Thom-Code-Cell/th-analytica-framework/blob/main/physical-ai-governance.md
 Service page: https://th-analytica.com/physical-ai-readiness
+Tourism & Hospitality module: https://github.com/Thom-Code-Cell/th-analytica-framework/blob/main/tourism-hospitality-data-readiness.md
 
 ## Evidence-First Content Standard
 - https://github.com/Thom-Code-Cell/th-analytica-framework/blob/main/evidence-first-content-standard.md

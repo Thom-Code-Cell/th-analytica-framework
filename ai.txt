@@ -18,6 +18,13 @@ This document summarises the core guidelines for AI Visibility and AI Readiness 
 
 For detailed examples and definitions, consult the framework documents and definitions.md in this repository.
 
+### Tourism & Hospitality Sector Module
+
+- **Attribute Inventory**: Maintain verified facts for the property, room types, capacities, amenities, accessibility, policies, services, places, events and booking paths.
+- **Cross-Surface Consistency**: Compare material fields across the official website, visible content, JSON-LD, business profiles, OTAs, DMO/TIS platforms and applicable national data hubs.
+- **Freshness and Ownership**: Assign a source, owner, verification date and update trigger to material fields. Time-bound prices and availability require authoritative live evidence.
+- **Outcome Separation**: Structured data can make facts explicit but does not establish crawling, retrieval, citation, recommendation or a successful agent transaction.
+
 ### Boundaries
 
 - Crawler access is not permission for model training.

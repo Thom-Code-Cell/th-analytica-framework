@@ -1,0 +1,62 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://th-analytica.com/schemas/tourism-hospitality-data-readiness-v0.1.schema.json",
+  "title": "TH Analytica Tourism & Hospitality Data Readiness v0.1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["specVersion", "applicability", "assessedAt", "controls"],
+  "properties": {
+    "specVersion": { "const": "0.1" },
+    "applicability": { "enum": ["applicable", "not_applicable", "open"] },
+    "assessedAt": { "type": "string", "format": "date-time" },
+    "entityId": { "type": "string", "minLength": 1 },
+    "notes": { "type": "string" },
+    "controls": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/control" }
+    }
+  },
+  "$defs": {
+    "control": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["controlId", "family", "status", "evidence"],
+      "properties": {
+        "controlId": { "type": "string", "pattern": "^THDR-[A-H]-[0-9]{2}$" },
+        "family": {
+          "enum": [
+            "canonical_entity",
+            "attribute_inventory",
+            "cross_surface_consistency",
+            "structured_representation",
+            "freshness_process",
+            "reputation_corroboration",
+            "agent_transaction_readiness",
+            "physical_venue_linkage"
+          ]
+        },
+        "status": { "enum": ["confirmed", "conflicting", "missing", "stale", "inaccessible", "not_applicable", "open"] },
+        "owner": { "type": "string" },
+        "recommendation": { "type": "string" },
+        "evidence": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/evidence" }
+        }
+      }
+    },
+    "evidence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["surface", "claim", "capturedAt", "evidenceClass"],
+      "properties": {
+        "surface": { "type": "string", "minLength": 1 },
+        "url": { "type": "string", "format": "uri" },
+        "claim": { "type": "string", "minLength": 1 },
+        "observedValue": {},
+        "capturedAt": { "type": "string", "format": "date-time" },
+        "evidenceClass": { "enum": ["first_party", "platform_managed", "third_party", "modeled"] },
+        "provenance": { "type": "string" }
+      }
+    }
+  }
+}

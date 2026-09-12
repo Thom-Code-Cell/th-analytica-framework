@@ -41,3 +41,15 @@ Physical AI Readiness describes whether a real-world venue is consistently ident
 ## Visual Governance Marker
 
 A Visual Governance Marker is a visible Entry or Exit QR marker that links to an HTTPS policy for a defined physical zone. It is advisory in version 0.1 and does not itself control third-party device hardware.
+
+---
+
+## Hospitality Attribute Inventory
+
+A Hospitality Attribute Inventory is a controlled, source-backed register of stable and dynamic facts about an accommodation property, its units, facilities, services, accessibility, policies, location, events and booking paths. Each material field should have an owner, source, verification date and update rule.
+
+---
+
+## Tourism Data Ecosystem
+
+The Tourism Data Ecosystem is the set of first- and third-party surfaces through which tourism facts are maintained or distributed, including the official website, structured data, business profiles, OTAs, destination and tourism information systems, national data hubs and relevant maps or directories.

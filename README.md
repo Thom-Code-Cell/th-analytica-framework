@@ -32,6 +32,8 @@ The framework does not guarantee crawling, indexing, model training, citations, 
 - [Evidence-First Content and Citation Readiness Standard](evidence-first-content-standard.md)
 - [Physical AI Governance v0.1](physical-ai-governance.md)
 - [Full-analysis applicability gate](full-analysis-physical-ai-governance.md)
+- [Tourism & Hospitality Data Readiness v0.1](tourism-hospitality-data-readiness.md)
+- [Whitepaper requirements crosswalk](whitepaper-schegg-morand-crosswalk.md)
 - [AI Visibility Methodology](AI%20Visibility%20Methodology)
 - [AI Readiness Analysis](AI%20Readiness%20Analysis)
 - [Machine-readable summary](llms.txt)

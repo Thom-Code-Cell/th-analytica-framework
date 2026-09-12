@@ -18,5 +18,11 @@
     "Structured data (schema.org)",
     "External references",
     "Balanced optimization"
+  ],
+  "tourism_hospitality_data_readiness": [
+    "Hospitality attribute inventory",
+    "Website, GBP, OTA and TIS consistency",
+    "Tourism data provenance and freshness",
+    "Agent and transaction readiness"
   ]
 }
