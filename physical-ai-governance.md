@@ -1,7 +1,7 @@
 # TH Analytica Physical AI Governance v0.1
 
 Status: **Experimental**  
-Updated: 2026-09-10
+Updated: 2026-09-16
 
 ## Direct answer
 
@@ -17,6 +17,8 @@ The profile connects four surfaces:
 4. a canonical HTTPS policy document.
 
 The policy describes the issuer, canonical venue identity, zone boundary, separate rules for photography, video, audio, livestreaming, visual analysis and biometric identification, plus activation and deactivation behavior.
+
+All implementations follow `privacy-by-design-standard.md`. Identifiable photo, video and audio capture is prohibited by default until purpose, legal basis, transparency, necessity, retention and safeguards are documented. An unclear legal basis blocks enablement and requires human review. Biometric identification remains prohibited by default.
 
 ## Compatible-client behavior
 
