@@ -31,6 +31,7 @@ The framework does not guarantee crawling, indexing, model training, citations, 
 - [Definitions](definitions.md)
 - [Evidence-First Content and Citation Readiness Standard](evidence-first-content-standard.md)
 - [Physical AI Governance v0.1](physical-ai-governance.md)
+- [Mandatory Privacy-by-Design Standard](privacy-by-design-standard.md)
 - [Full-analysis applicability gate](full-analysis-physical-ai-governance.md)
 - [AI Visibility Methodology](AI%20Visibility%20Methodology)
 - [AI Readiness Analysis](AI%20Readiness%20Analysis)
