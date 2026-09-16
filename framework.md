@@ -27,7 +27,13 @@ Consistency of messaging across the website and external profiles.
 How clearly the website explains what the company does.
 
 ## 7 Agent Readiness and Governance
-How clearly automated systems can interpret available actions, constraints and approval steps. Real-world actions remain subject to security controls and explicit human approval.
+How clearly automated systems can interpret available actions, constraints and approval steps, and whether organisation-controlled generative interfaces can communicate within defined, testable and auditable boundaries. Real-world actions remain subject to security controls and explicit human approval.
+
+This dimension includes **AI Output & Liability Readiness** for customer-facing chatbots, voice assistants and agents. Applicable assessments review approved sources of truth, high-risk claims, grounding, uncertainty behaviour, output guardrails, regression testing, traceability, incident response and human escalation. The framework distinguishes independent statements by third-party AI products from outputs of systems deployed, configured or presented by the organisation.
+
+The core maturity path is: **found → understood → correctly answered → safely acted**.
+
+Full methodology and reporting rules: `ai-output-liability-readiness.md`.
 
 ## 8 Source Concentration & AI Visibility Resilience
 How strongly observed AI visibility depends on individual source families or individual AI/search systems. Full analyses should distinguish first-party resilience from third-party dependence and flag concentration risk where one source ecosystem or one AI system dominates the result.
@@ -86,6 +92,7 @@ The TH Analytica Framework can be used for:
 • evaluation of AI visibility  
 • evaluation of source concentration and cross-system visibility risk  
 • improving structured information for AI systems
+• assessing controlled AI outputs, claim guardrails and human escalation for organisation-operated conversational systems
 • optional analysis of natural-language search demand when first-party GSC data is available
 • physical-place identity and visual governance for venues where the module is applicable
 
