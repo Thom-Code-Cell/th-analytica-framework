@@ -1,7 +1,7 @@
 # Physical AI Governance in every full analysis
 
 Status: **Mandatory applicability gate**  
-Effective: 2026-09-10
+Effective: 2026-09-16
 
 ## Rule
 
@@ -25,7 +25,12 @@ Only **applicable** cases receive a detailed assessment. **Not applicable** and 
 8. validation of QR destination, JSON syntax, schema conformance and stale-policy behavior;
 9. device or client support reported by evidence level, never by assumption;
 10. legal and operational review recorded separately from technical readiness;
-11. privacy check confirming that only public coordinates are published and no sensitive indoor location is exposed.
+11. privacy check confirming that only public coordinates are published and no sensitive indoor location is exposed;
+12. documented jurisdiction, controller, personal-data categories, purpose and legal basis for each processing operation;
+13. consent and withdrawal mechanism where consent is relied upon; a sign or venue entry alone is not treated as consent;
+14. data minimisation, retention, deletion, security, processor and international-transfer controls;
+15. high-risk/DPIA decision, with biometric identification and processing of vulnerable persons prohibited by default;
+16. privacy outcome recorded as **approved**, **approved with conditions**, **prohibited**, or **open for legal review**. An open outcome blocks implementation.
 
 ## Reporting language
 
