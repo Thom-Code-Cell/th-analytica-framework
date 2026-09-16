@@ -41,3 +41,9 @@ Physical AI Readiness describes whether a real-world venue is consistently ident
 ## Visual Governance Marker
 
 A Visual Governance Marker is a visible Entry or Exit QR marker that links to an HTTPS policy for a defined physical zone. It is advisory in version 0.1 and does not itself control third-party device hardware.
+
+---
+
+## AI Output & Liability Readiness
+
+AI Output & Liability Readiness describes whether an organisation-controlled generative interface can produce customer-facing statements within defined, tested and auditable boundaries. It covers approved sources of truth, high-risk claim controls, grounding, uncertainty behaviour, regression testing, traceability, incident response and human escalation. It is a governance assessment, not legal advice.
