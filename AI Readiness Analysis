@@ -9,5 +9,6 @@ The analysis focuses on several factors, including:
 - structured data implementation
 - consistency of company information
 - trust signals such as legal pages and policies
+- for organisation-controlled conversational systems: approved sources, high-risk claim controls, grounding, output guardrails, testing, traceability and human escalation
 
-The goal is to assess whether public evidence makes the identity, services, context, permissions and action boundaries of a website consistently understandable. Results describe observable readiness signals and do not guarantee a specific AI-system outcome.
+The goal is to assess whether public evidence makes the identity, services, context, permissions and action boundaries of a website consistently understandable. Results describe observable readiness signals and do not guarantee a specific AI-system outcome. Where a company operates a chatbot or agent, the analysis can activate the AI Output & Liability Readiness module and separately assess whether the system can correctly answer before it is allowed to act.
