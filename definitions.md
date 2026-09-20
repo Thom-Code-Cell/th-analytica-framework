@@ -26,6 +26,12 @@ An agent-ready website exposes clear information, roles, actions and constraints
 
 ---
 
+## Agent Governance
+
+Agent Governance describes the rules and controls that determine what an AI agent is permitted to do, under which identity and approval conditions, within which financial, data and runtime limits, and how actions can be logged, reviewed, revoked or stopped. Agent capability does not equal permission.
+
+---
+
 ## Agent Communication Readiness
 
 Agent Communication Readiness describes whether an external AI agent, when it has an authorised phone, email, messaging or form tool, can identify a legitimate contact path, supply the required inquiry information and reach a defined human handover or verified service confirmation. A website can expose these paths but does not itself grant third-party agents communication capability or permission.
