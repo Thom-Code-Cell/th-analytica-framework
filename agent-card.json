@@ -6,7 +6,8 @@
   "core_concepts": {
     "semantic_friction": "Minimise ambiguous or conflicting terminology to help AI systems understand your domain.",
     "agent_readiness": "Design data, permissions and processes so AI-assisted systems can interpret possible actions and escalate them for human approval.",
-    "ai_actionability": "Structure information so possible actions and their constraints are explicit without authorising autonomous execution."
+    "ai_actionability": "Structure information so possible actions and their constraints are explicit without authorising autonomous execution.",
+    "agent_communication_readiness": "Document verified contact channels, required inquiry data, user authorisation and human handover so capable external agents can communicate without implying permission or autonomous commitment."
   },
   "actions": [
     {
@@ -16,6 +17,10 @@
     {
       "name": "ai_visibility_review",
       "description": "Review and suggest improvements to the AI visibility of a website or digital asset."
+    },
+    {
+      "name": "agent_communication_readiness_assessment",
+      "description": "Assess telephone, email, form and booking/request contact paths, handover boundaries and client-specific agent-contact-readiness metadata without initiating live contact unless explicitly authorised."
     }
   ],
   "contact": {
@@ -27,6 +32,9 @@
     "human_approval_required": true,
     "autonomous_form_submission_allowed": false,
     "autonomous_booking_allowed": false,
-    "autonomous_payment_allowed": false
+    "autonomous_payment_allowed": false,
+    "outbound_communication_requires_agent_capability": true,
+    "outbound_communication_requires_user_authorization": true,
+    "live_contact_test_requires_explicit_customer_authorization": true
   }
 }
