@@ -14,6 +14,7 @@ This document summarises the core guidelines for AI Visibility and AI Readiness 
 - **Process Clarity**: Document your key business processes and workflows in a way that can be consumed by AI agents. Clear steps and roles reduce friction.
 - **Entity Linking**: Map your organisation’s key entities (people, products, services) to consistent identifiers so AI can reference them correctly.
 - **Agent Interoperability**: Where appropriate, expose documented APIs or standard formats. Do not imply permission for autonomous transactions.
+- **Agent Portability**: Keep authoritative business knowledge, reusable instructions, governance rules and credentials separable from a single model provider, and document export, migration and fallback paths where appropriate.
 - **Security & Governance**: Implement appropriate access controls and governance mechanisms to protect sensitive data while enabling AI operation.
 
 For detailed examples and definitions, consult the framework documents and definitions.md in this repository.
