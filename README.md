@@ -8,7 +8,7 @@ It reviews:
 - semantic and entity clarity
 - structured data and content architecture
 - trust, authorship and external corroboration
-- agent readiness, controlled AI outputs, action boundaries and human approval
+- agent readiness, controlled AI outputs, Agent Communication Readiness, action boundaries and human approval
 - physical-place identity and AI-glasses governance where a venue is relevant
 
 The framework does not guarantee crawling, indexing, model training, citations, mentions, recommendations, leads or revenue. Different AI products use different combinations of training data, search indexes, retrieval systems and live fetches.
@@ -31,6 +31,7 @@ The framework does not guarantee crawling, indexing, model training, citations, 
 - [Definitions](definitions.md)
 - [Evidence-First Content and Citation Readiness Standard](evidence-first-content-standard.md)
 - [AI Output & Liability Readiness](ai-output-liability-readiness.md)
+- [Agent Communication Readiness](agent-communication-readiness.md)
 - [Physical AI Governance v0.1](physical-ai-governance.md)
 - [Mandatory Privacy-by-Design Standard](privacy-by-design-standard.md)
 - [Full-analysis applicability gate](full-analysis-physical-ai-governance.md)
