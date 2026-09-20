@@ -30,7 +30,7 @@ Consistency of messaging across the website and external profiles.
 ## 6 Context and Clarity
 How clearly the website explains what the company does.
 
-## 7 Agent Readiness and Governance
+## 7 Agent Readiness, Governance and Portability
 How clearly automated systems can interpret available actions, constraints and approval steps, and whether organisation-controlled generative interfaces can communicate within defined, testable and auditable boundaries. Real-world actions remain subject to security controls and explicit human approval.
 
 This dimension includes **AI Output & Liability Readiness** for customer-facing chatbots, voice assistants and agents. Applicable assessments review approved sources of truth, high-risk claims, grounding, uncertainty behaviour, output guardrails, regression testing, traceability, incident response and human escalation. The framework distinguishes independent statements by third-party AI products from outputs of systems deployed, configured or presented by the organisation.
@@ -43,9 +43,13 @@ Every full analysis must generate a client-specific `/.well-known/agent-contact-
 
 Every full analysis must generate or update a client-specific `/.well-known/ai-governance.json` draft. Published policies alone are not evidence that a control is technically enforced; unknown controls remain unverified until supported by authoritative evidence or an authorised test.
 
-The core maturity path is: **found → understood → correctly answered → contactable with clear boundaries → permitted within defined controls → safely acted → auditable and revocable**.
+**Agent Portability** is a separate mandatory result inside this dimension. It evaluates whether organisation-controlled knowledge, instructions, skills, interfaces, governance rules, credentials and fallback paths are sufficiently separated from a single model provider to be reused, exported or reconnected in another compatible agent runtime. Portability reduces avoidable provider lock-in but does not imply identical behaviour across providers.
 
-Full methodology and reporting rules: `ai-output-liability-readiness.md`, `agent-communication-readiness.md` and `agent-governance.md`.
+Every full analysis must identify provider-bound dependencies, model-neutral sources of truth, reusable skills/workflows, interface dependencies, governance and credential boundaries, data/export paths and fallback options. It must generate a client-specific `/.well-known/agent-portability.json` draft. This TH Analytica artefact is not a universal standard and does not prove support by third-party systems.
+
+The core maturity path is: **found → understood → correctly answered → contactable with clear boundaries → permitted within defined controls → portable across compatible runtimes → safely acted → auditable and revocable**.
+
+Full methodology and reporting rules: `ai-output-liability-readiness.md`, `agent-communication-readiness.md`, `agent-governance.md` and `agent-portability.md`.
 
 ## 8 Source Concentration & AI Visibility Resilience
 How strongly observed AI visibility depends on individual source families or individual AI/search systems. Full analyses should distinguish first-party resilience from third-party dependence and flag concentration risk where one source ecosystem or one AI system dominates the result.
@@ -107,6 +111,7 @@ The TH Analytica Framework can be used for:
 • assessing controlled AI outputs, claim guardrails and human escalation for organisation-operated conversational systems
 • assessing Agent Communication Readiness across telephone, email, forms and booking/request paths with explicit authorisation boundaries
 • assessing Agent Governance across identity, permissions, allowed/prohibited actions, approval thresholds, limits, auditability, revocation and incident escalation
+• assessing Agent Portability across model-neutral sources of truth, reusable skills/workflows, interfaces, governance and credential separation, exportability and fallback continuity
 • optional analysis of natural-language search demand when first-party GSC data is available
 • physical-place identity and visual governance for venues where the module is applicable
 
