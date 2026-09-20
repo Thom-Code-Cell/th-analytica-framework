@@ -21,7 +21,7 @@ The framework does not guarantee crawling, indexing, model training, citations, 
 4. Trust Signals
 5. Strategic Communication
 6. Context and AI Readability
-7. Agent Readiness and Governance
+7. Agent Readiness, Governance and Portability
 8. Source Concentration and AI Visibility Resilience
 9. Physical AI Readiness and Visual Governance
 
@@ -46,3 +46,8 @@ For services, implementation guidance and current contact details, visit [TH Ana
 Maintainer: Thomas Hullin
 
 Contact: thomas@th-analytica.com
+
+
+## Agent Portability
+
+Dimension 7 includes a mandatory Agent Portability module that checks whether organisation-controlled knowledge, rules, skills, interfaces and governance can be reused or migrated across compatible agent runtimes without avoidable dependency on one provider. See `agent-portability.md`.
