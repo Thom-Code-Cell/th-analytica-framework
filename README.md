@@ -4,7 +4,7 @@ The TH Analytica Framework is a methodology for assessing the technical and sema
 
 It reviews:
 
-- technical accessibility and crawlability
+- technical accessibility, crawlability and multilingual LLM discovery consistency
 - semantic and entity clarity
 - structured data and content architecture
 - trust, authorship and external corroboration
@@ -30,6 +30,7 @@ The framework does not guarantee crawling, indexing, model training, citations, 
 - [Framework methodology](framework.md)
 - [Definitions](definitions.md)
 - [Evidence-First Content and Citation Readiness Standard](evidence-first-content-standard.md)
+- [LLM Discovery / Locale Resolution](llm-discovery-locale-resolution.md)
 - [AI Output & Liability Readiness](ai-output-liability-readiness.md)
 - [Agent Communication Readiness](agent-communication-readiness.md)
 - [Physical AI Governance v0.1](physical-ai-governance.md)
