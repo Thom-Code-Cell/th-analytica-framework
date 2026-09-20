@@ -39,9 +39,13 @@ It also includes **Agent Communication Readiness** as a mandatory full-analysis 
 
 Every full analysis must generate a client-specific `/.well-known/agent-contact-readiness.json` draft. Contact details, permissions, response times and capabilities must be verified from authoritative evidence or remain explicitly unverified. Real phone, email, message, booking or form tests require explicit customer authorisation.
 
-The core maturity path is: **found → understood → correctly answered → contactable with clear boundaries → safely acted**.
+**Agent Governance** is a separate mandatory result inside this dimension. Agent Readiness evaluates whether an agent can interpret a possible action and its prerequisites. Agent Governance evaluates what the agent is allowed to do, under which identity, permission and approval rules, with which financial or data-access limits, and how decisions, execution, revocation and incidents can be audited. Capability is not treated as permission.
 
-Full methodology and reporting rules: `ai-output-liability-readiness.md` and `agent-communication-readiness.md`.
+Every full analysis must generate or update a client-specific `/.well-known/ai-governance.json` draft. Published policies alone are not evidence that a control is technically enforced; unknown controls remain unverified until supported by authoritative evidence or an authorised test.
+
+The core maturity path is: **found → understood → correctly answered → contactable with clear boundaries → permitted within defined controls → safely acted → auditable and revocable**.
+
+Full methodology and reporting rules: `ai-output-liability-readiness.md`, `agent-communication-readiness.md` and `agent-governance.md`.
 
 ## 8 Source Concentration & AI Visibility Resilience
 How strongly observed AI visibility depends on individual source families or individual AI/search systems. Full analyses should distinguish first-party resilience from third-party dependence and flag concentration risk where one source ecosystem or one AI system dominates the result.
@@ -102,6 +106,7 @@ The TH Analytica Framework can be used for:
 • improving structured information for AI systems
 • assessing controlled AI outputs, claim guardrails and human escalation for organisation-operated conversational systems
 • assessing Agent Communication Readiness across telephone, email, forms and booking/request paths with explicit authorisation boundaries
+• assessing Agent Governance across identity, permissions, allowed/prohibited actions, approval thresholds, limits, auditability, revocation and incident escalation
 • optional analysis of natural-language search demand when first-party GSC data is available
 • physical-place identity and visual governance for venues where the module is applicable
 
