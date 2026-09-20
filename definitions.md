@@ -59,3 +59,10 @@ A Visual Governance Marker is a visible Entry or Exit QR marker that links to an
 ## AI Output & Liability Readiness
 
 AI Output & Liability Readiness describes whether an organisation-controlled generative interface can produce customer-facing statements within defined, tested and auditable boundaries. It covers approved sources of truth, high-risk claim controls, grounding, uncertainty behaviour, regression testing, traceability, incident response and human escalation. It is a governance assessment, not legal advice.
+
+
+---
+
+## Agent Portability
+
+Agent Portability describes the degree to which organisation-controlled knowledge, instructions, reusable skills or workflows, interfaces, governance rules, credentials and fallback paths can be exported, reused or reconnected across compatible AI-agent runtimes without rebuilding the complete operating model around one provider. It assesses architectural transferability, not guaranteed behavioural equivalence between models.
