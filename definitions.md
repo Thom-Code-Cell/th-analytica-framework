@@ -26,6 +26,12 @@ An agent-ready website exposes clear information, roles, actions and constraints
 
 ---
 
+## Agent Communication Readiness
+
+Agent Communication Readiness describes whether an external AI agent, when it has an authorised phone, email, messaging or form tool, can identify a legitimate contact path, supply the required inquiry information and reach a defined human handover or verified service confirmation. A website can expose these paths but does not itself grant third-party agents communication capability or permission.
+
+---
+
 ## Open-Web Presence
 
 Open-Web Presence records whether public content can be found in selected search indexes or public corpora such as Common Crawl. It does not establish that the content was used for model training or will be retrieved for a specific query.
