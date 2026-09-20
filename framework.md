@@ -11,6 +11,10 @@ It complements traditional SEO analysis with semantic clarity, machine-readable 
 ## 1 Technical Foundation
 Technical stability of the website, accessibility and crawlability.
 
+This dimension includes **LLM Discovery / Locale Resolution**. For multilingual websites, the analysis compares the canonical `/llms.txt` with the language variants the website actually advertises through `hreflang`, canonicals, sitemaps and public routes. Reachability, status, soft-fallback behaviour, content quality and available freshness headers are documented. The mere presence of `llms.txt`, `ai.txt` or another proprietary discovery file does not add readiness points.
+
+Full methodology and reporting rules: `llm-discovery-locale-resolution.md`.
+
 ## 2 Search and Open-Web Presence
 Presence in search engines, public web corpora and consistent external sources. A Common Crawl record is evidence of corpus presence only; it does not prove model training or live retrieval.
 
@@ -111,7 +115,7 @@ The TH Analytica Framework can be used for:
 - **Retrieval** selects sources at query time; a source may be retrieved without having been used for model training.
 - **Generation** produces an answer and may still omit a technically accessible source.
 
-Files such as `robots.txt`, `ai.txt` and `llms.txt` can communicate preferences and context, but support differs by provider. They do not override law, contracts or provider-specific controls.
+Files such as `robots.txt`, `ai.txt` and `llms.txt` can communicate preferences and context, but support differs by provider. They do not override law, contracts or provider-specific controls. `llms.txt` locale resolution is a diagnostic consistency check, not evidence of downstream retrieval or recommendation and not a presence-based score bonus.
 
 Crawler identities should be evaluated by function. Training crawlers, search/retrieval crawlers and user-triggered fetchers must not automatically be treated as equivalent.
 ---
