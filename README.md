@@ -32,6 +32,7 @@ The framework does not guarantee crawling, indexing, model training, citations, 
 - [Definitions](definitions.md)
 - [Evidence-First Content and Citation Readiness Standard](evidence-first-content-standard.md)
 - [Source Integrity & Evidence Readiness](source-integrity-evidence-readiness.md)
+- [Local AI Data Sources & Entity Consistency](local-ai-data-sources.md)
 - [LLM Discovery / Locale Resolution](llm-discovery-locale-resolution.md)
 - [AI Output & Liability Readiness](ai-output-liability-readiness.md)
 - [Agent Communication Readiness](agent-communication-readiness.md)
