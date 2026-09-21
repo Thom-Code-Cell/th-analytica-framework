@@ -38,6 +38,24 @@ Agent Communication Readiness describes whether an external AI agent, when it ha
 
 ---
 
+## Evidence Readiness
+
+Evidence Readiness describes how well material company claims are prepared for verification through clear primary sources, consistent facts, authorship and update signals, machine-readable parity and traceable evidence paths. A readiness score does not establish which sources an external AI system actually used.
+
+---
+
+## Source Integrity
+
+Source Integrity describes whether a cited, named or linked source exists, is identifiable and current enough for the context, and actually supports the concrete claim made. A plausible-looking citation or thematically related source is not sufficient.
+
+---
+
+## AI Source Verification
+
+AI Source Verification is the documented check of a source-bearing external AI answer. It records the system, prompt, date, relevant language or mode, answer, source, source existence, claim support, freshness, first-party or third-party status and contradictions. Untested systems or claims remain not measured.
+
+---
+
 ## Open-Web Presence
 
 Open-Web Presence records whether public content can be found in selected search indexes or public corpora such as Common Crawl. It does not establish that the content was used for model training or will be retrieved for a specific query.
