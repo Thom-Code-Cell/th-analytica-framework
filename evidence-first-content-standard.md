@@ -152,6 +152,7 @@ A page with a failed evidence, parity or guarantee control is not publication-re
 This standard complements:
 
 - the Natural Query and AI Intent Layer, which identifies observed or modelled demand;
+- the Source Integrity & Evidence Readiness module, which verifies whether business-critical external AI sources exist and support the concrete claim while keeping structural readiness separate from observed source use;
 - the Source Concentration and AI Visibility Resilience module, which evaluates dependence on source families and systems;
 - Agent Readiness and Governance, which defines permitted actions and approval boundaries;
 - the Case Study Evidence Standard used for public outcome reporting.
