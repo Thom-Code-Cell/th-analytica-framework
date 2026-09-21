@@ -24,11 +24,11 @@ Each indexable page declares one primary user question or decision. Related foll
 
 ### 2. Answer first
 
-The first substantive paragraph gives a direct answer before background, process or promotion. It identifies the subject, scope and material limitation.
+The first substantive paragraph gives a direct answer before background, process or promotion. It identifies the subject, scope and material limitation. A 30–80 word range is a useful diagnostic target for substantial answer blocks, not a mandatory formula or ranking factor.
 
 ### 3. Question-led sections where useful
 
-H2 headings should reflect real follow-up questions when that improves scanning and passage-level understanding. Descriptive headings remain acceptable when clearer. Mechanical question formatting is not a quality signal.
+H2 and H3 headings should reflect real follow-up questions or name the section topic precisely when that improves scanning and passage-level understanding. Descriptive headings remain acceptable when clearer. Generic headings that do not identify the topic reduce semantic clarity; mechanical question formatting is not a quality signal.
 
 ### 4. Entity clarity
 
@@ -60,7 +60,7 @@ Prefer first-party datasets, documented cases, transparent experiments and clear
 
 Use one H1, logical heading hierarchy, paragraphs, lists, tables and links according to meaning. JSON-LD must match visible content and use the appropriate Schema.org type.
 
-Structured data supports interpretation. It is not proof of ranking or AI citation.
+Structured data supports interpretation. Material facts in JSON-LD should also be visible to users and should not contradict the rendered page. Structured data is not proof of ranking, retrieval or AI citation.
 
 ### 9. Trust and responsibility
 
@@ -104,7 +104,7 @@ State the exact user question or decision.
 
 ### Direct answer
 
-Answer in 40 to 80 words, including scope and the most important limitation.
+Answer in a useful diagnostic range of 30 to 80 words, including scope and the most important limitation. This is not a quota or ranking rule.
 
 ### Entity definition
 
@@ -125,6 +125,14 @@ State what the evidence proves and what it does not prove.
 ### Next step
 
 Link to one relevant method, case, tool or human-approved action.
+
+## Operational content-readiness checks
+
+Report these three checks explicitly as diagnostics, not external ranking factors:
+
+- **Answer Block Readiness:** direct answer first; 30–80 words is a useful range, not a quota.
+- **Semantic Heading Clarity:** H2/H3 headings identify the real topic or follow-up question and avoid generic labels.
+- **Visible Content ↔ Structured Data Parity:** material JSON-LD facts are visible, consistent and non-contradictory.
 
 ## Audit checklist
 
