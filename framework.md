@@ -24,6 +24,12 @@ Clear definition of services, topics and entities.
 ## 4 Trust Signals
 Legal pages, transparency, authorship and credibility indicators.
 
+This dimension includes the mandatory **Source Integrity & Evidence Readiness** module for full analyses. Evidence Readiness assesses whether material claims can be checked against clear, current and authoritative evidence. External AI Source Verification is reported separately and records whether a named or linked source actually exists and supports the concrete statement. A structural readiness score is not treated as proof of external source use.
+
+Standard full-analysis depth prioritises 10 to 15 business-critical answers or claims for source-level verification. Untested systems or claims remain not measured.
+
+Full methodology and reporting rules: `source-integrity-evidence-readiness.md`.
+
 ## 5 Strategic Communication
 Consistency of messaging across the website and external profiles.
 
@@ -107,6 +113,7 @@ The TH Analytica Framework can be used for:
 • AI Readiness analysis of websites  
 • evaluation of AI visibility  
 • evaluation of source concentration and cross-system visibility risk  
+• Source Integrity & Evidence Readiness, including claim-level verification of business-critical AI answers
 • improving structured information for AI systems
 • assessing controlled AI outputs, claim guardrails and human escalation for organisation-operated conversational systems
 • assessing Agent Communication Readiness across telephone, email, forms and booking/request paths with explicit authorisation boundaries
@@ -139,3 +146,11 @@ The module rejects rigid word-count formulas, invented ranking factors and causa
 Editorial pages should expose author and dates. Structured data and machine-readable representations must match visible content. Files such as llms.txt or ai.txt may provide context where supported but are not universal standards or proof of retrieval.
 
 Full controls, page template and audit checklist: evidence-first-content-standard.md.
+
+---
+
+# Source Integrity & Evidence Readiness
+
+Every full analysis reports structural Evidence Readiness separately from observed external AI Source Verification. A cited or named source is not accepted merely because it looks plausible: the source must exist and support the concrete claim. Standard depth prioritises 10 to 15 business-critical answers or claims, while untested systems remain not measured.
+
+Full controls and reporting rules: source-integrity-evidence-readiness.md.
