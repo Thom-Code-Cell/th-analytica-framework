@@ -8,6 +8,7 @@ It reviews:
 - semantic and entity clarity
 - structured data and content architecture
 - trust, authorship and external corroboration
+- Source Integrity & Evidence Readiness, including claim-level source verification for business-critical AI answers
 - agent readiness, Agent Governance, controlled AI outputs, Agent Communication Readiness, action boundaries, human approval and auditability
 - physical-place identity and AI-glasses governance where a venue is relevant
 
@@ -30,6 +31,7 @@ The framework does not guarantee crawling, indexing, model training, citations, 
 - [Framework methodology](framework.md)
 - [Definitions](definitions.md)
 - [Evidence-First Content and Citation Readiness Standard](evidence-first-content-standard.md)
+- [Source Integrity & Evidence Readiness](source-integrity-evidence-readiness.md)
 - [LLM Discovery / Locale Resolution](llm-discovery-locale-resolution.md)
 - [AI Output & Liability Readiness](ai-output-liability-readiness.md)
 - [Agent Communication Readiness](agent-communication-readiness.md)
