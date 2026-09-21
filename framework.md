@@ -143,7 +143,7 @@ Every indexable knowledge, service and case-study page should resolve one primar
 
 The module rejects rigid word-count formulas, invented ranking factors and causal claims based only on sequence. It keeps search performance, observed AI output, business actions and governance or agent-readiness signals separate.
 
-Editorial pages should expose author and dates. Structured data and machine-readable representations must match visible content. Files such as llms.txt or ai.txt may provide context where supported but are not universal standards or proof of retrieval.
+Editorial pages should expose author and dates. Structured data and machine-readable representations must match visible content. The operational review explicitly records Answer Block Readiness (with 30–80 words as a useful diagnostic range, not a quota), Semantic Heading Clarity and Visible Content ↔ Structured Data Parity. These are clarity and consistency diagnostics, not claimed ranking factors. Files such as llms.txt or ai.txt may provide context where supported but are not universal standards or proof of retrieval.
 
 Full controls, page template and audit checklist: evidence-first-content-standard.md.
 
