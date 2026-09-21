@@ -18,6 +18,10 @@ Full methodology and reporting rules: `llm-discovery-locale-resolution.md`.
 ## 2 Search and Open-Web Presence
 Presence in search engines, public web corpora and consistent external sources. A Common Crawl record is evidence of corpus presence only; it does not prove model training or live retrieval.
 
+For local and location-dependent organisations this dimension includes the mandatory **Local AI Data Sources & Entity Consistency** module. Where relevant and actually verifiable, the analysis compares first-party website and structured data with Google Business Profile, Bing Places, Apple Business / Apple Maps presence, relevant map or POI surfaces and authoritative industry directories. Presence alone creates no score bonus; consistency, completeness, freshness and authority are assessed. Sources that were not checked remain `not_measured` and are not treated as missing.
+
+Full methodology and reporting rules: `local-ai-data-sources.md`.
+
 ## 3 Semantic Clarity
 Clear definition of services, topics and entities.
 
