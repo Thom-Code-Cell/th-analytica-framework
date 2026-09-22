@@ -10,6 +10,7 @@ It reviews:
 - structured data and content architecture
 - trust, authorship and external corroboration
 - Source Integrity & Evidence Readiness, including claim-level source verification for business-critical AI answers
+- AI Zero-Click Presence & Direct Action Measurement, separating observed AI-answer presence, zero-click capability, structural action readiness and attributable business outcomes
 - agent readiness, Agent Governance, controlled AI outputs, Agent Communication Readiness, action boundaries, human approval and auditability
 - physical-place identity and AI-glasses governance where a venue is relevant
 
@@ -42,6 +43,7 @@ See [Positioning Foundation](positioning-foundation.md).
 - [Definitions](definitions.md)
 - [Evidence-First Content and Citation Readiness Standard](evidence-first-content-standard.md)
 - [Source Integrity & Evidence Readiness](source-integrity-evidence-readiness.md)
+- [AI Zero-Click Presence & Direct Action Measurement](ai-zero-click-presence.md)
 - [Local AI Data Sources & Entity Consistency](local-ai-data-sources.md)
 - [LLM Discovery / Locale Resolution](llm-discovery-locale-resolution.md)
 - [AI Output & Liability Readiness](ai-output-liability-readiness.md)
