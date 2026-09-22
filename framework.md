@@ -6,6 +6,20 @@ It complements traditional SEO analysis with semantic clarity, machine-readable 
 
 ---
 
+# Layer 0 – Positioning Foundation
+
+Before scored technical dimensions, every analysis establishes the organisation's intended positioning and compares it with the positioning observable from public evidence.
+
+Layer 0 defines the core positioning, target audiences, markets and languages, Desired Query Space, Excluded Query Space, evidence basis, expected next actions and confidence gaps. It is a **mandatory, non-scored strategic gate**. A strong technical score cannot compensate for an unclear or unconfirmed positioning foundation.
+
+Quick Checks can only assess observable public positioning clarity. Full Analyses must record Layer 0 as **confirmed**, **inferred**, **open** or **conflict** and keep any uncertainty visible in downstream recommendations and prompt tests.
+
+Prompt monitoring, content prioritisation and AI-system test sets should be derived from the Desired Query Space rather than from generic keyword or prompt volume.
+
+Full methodology and reporting rules: `positioning-foundation.md`.
+
+---
+
 # Framework Dimensions
 
 ## 1 Technical Foundation
@@ -114,6 +128,7 @@ Source Concentration & AI Visibility Resilience should normally be reported sepa
 
 The TH Analytica Framework can be used for:
 
+• Positioning Foundation and Desired / Excluded Query Space definition before technical optimisation  
 • AI Readiness analysis of websites  
 • evaluation of AI visibility  
 • evaluation of source concentration and cross-system visibility risk  
