@@ -78,9 +78,11 @@ Full methodology and reporting rules: `ai-output-liability-readiness.md`, `agent
 ## 8 Source Concentration & AI Visibility Resilience
 How strongly observed AI visibility depends on individual source families or individual AI/search systems. Full analyses should distinguish first-party resilience from third-party dependence and flag concentration risk where one source ecosystem or one AI system dominates the result.
 
+This dimension also includes **AI Zero-Click Presence & Direct Action Measurement**. It separates observed AI-answer presence, zero-click capability, structural Direct Action Readiness and independently attributable zero-click business outcomes. Traffic decline, low CTR or Search Console zero-click patterns are never treated as proof that an AI system answered the user's question. Quick Checks may assess public Zero-Click Readiness signals, but actual AI Zero-Click Presence and outcome attribution remain `not_measured` unless separately tested.
+
 The assessment uses observable citations, source-bearing answers and controlled cross-system tests. It does not infer hidden ranking factors, training data or proprietary model internals.
 
-Full methodology and reporting rules: `source-concentration-risk.md`.
+Full methodology and reporting rules: `source-concentration-risk.md` and `ai-zero-click-presence.md`.
 
 ## 9 Physical AI Readiness & Visual Governance
 
@@ -132,6 +134,7 @@ The TH Analytica Framework can be used for:
 • AI Readiness analysis of websites  
 • evaluation of AI visibility  
 • evaluation of source concentration and cross-system visibility risk  
+• AI Zero-Click Presence & Direct Action Measurement across observed AI answers, surfaced actions and separately attributable business outcomes  
 • Source Integrity & Evidence Readiness, including claim-level verification of business-critical AI answers
 • improving structured information for AI systems
 • assessing controlled AI outputs, claim guardrails and human escalation for organisation-operated conversational systems

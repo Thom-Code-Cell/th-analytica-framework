@@ -14,6 +14,12 @@ AI Visibility describes the observable and testable conditions under which an or
 
 ---
 
+## AI Zero-Click Presence
+
+AI Zero-Click Presence describes an observed AI-assisted answer or action surface in which an organisation, verified information about it or a verified next action is available without requiring the user to open the organisation's website first. It must be measured from external AI outputs and must not be inferred from traffic decline, low CTR or Search Console data. Structural Direct Action Readiness and real attributable zero-click business outcomes are reported separately.
+
+---
+
 ## AI Readability
 
 AI Readability refers to how easily AI systems can understand the content and meaning of a website.
