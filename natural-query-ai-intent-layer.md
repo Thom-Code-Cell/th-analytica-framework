@@ -1,10 +1,12 @@
 # TH Analytica – Natural Query & AI Intent Layer
 
-Status: optional data layer for future TH Analytica full analyses
+Status: optional evidence layer for TH Analytica full analyses; requires Positioning Foundation (Layer 0)
 
 ## Purpose
 
-The Natural Query & AI Intent Layer connects real search demand with semantic website analysis and AI-answer testing. It must never be presented as a detector for ChatGPT, Gemini, AI Overviews or other proprietary AI prompts. Google Search Console reports Google Search performance; it does not reliably identify whether a query originated from or was answered by an AI system.
+The Natural Query & AI Intent Layer connects real search demand with semantic website analysis and AI-answer testing. It must never be presented as a detector for ChatGPT, Gemini, AI Overviews or other proprietary AI prompts.
+
+Before this layer is activated, the analysis must have a Positioning Foundation (Layer 0). Search demand can validate, refine or challenge the intended positioning, but it must not silently replace the organisation's confirmed business strategy. Priority query clusters are therefore compared with the Desired Query Space and Excluded Query Space. Google Search Console reports Google Search performance; it does not reliably identify whether a query originated from or was answered by an AI system.
 
 The layer is therefore used to answer a narrower and defensible question:
 
@@ -70,6 +72,15 @@ Recommended request to the agency:
 "Bitte exportieren Sie aus der Google Search Console für die letzten 12 Monate die Leistungsdaten nach Suchanfrage und Seite mit Klicks, Impressionen, CTR und durchschnittlicher Position und senden Sie die Datei als CSV oder Excel. Wenn möglich, bitte zusätzlich Land und Gerät einschliessen."
 
 ## Analysis workflow
+
+### Step 0 – Align with Positioning Foundation
+
+Before query scoring:
+- load the confirmed or current Layer 0 status;
+- map observed queries against the Desired Query Space;
+- flag queries that belong to the Excluded Query Space;
+- distinguish demand gaps from answer gaps and semantic-positioning conflicts;
+- keep inferred positioning separate from confirmed business intent.
 
 ### Step 1 – Clean and classify
 
@@ -175,7 +186,7 @@ Always distinguish:
 
 ## Full-analysis integration
 
-The layer is optional and does not replace the standard TH Analytica v9.x / v9.4 MAX analysis structure.
+The layer is optional and does not replace the standard TH Analytica full-analysis structure. It refines Layer 0 with observed demand evidence and must not be interpreted independently from the Positioning Foundation.
 
 When GSC data is available, add a dedicated section titled:
 
