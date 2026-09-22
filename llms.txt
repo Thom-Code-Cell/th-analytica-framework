@@ -2,6 +2,7 @@
 
 This file summarises the public TH Analytica Framework for systems that choose to read it. `llms.txt` is an emerging convention with provider-dependent support; its presence does not control model behaviour, guarantee discovery, citation or recommendation, or create readiness points merely by existing.
 
+- **Positioning Foundation (Layer 0)**: Before technical scoring or prompt monitoring, establish the organisation's intended positioning, target audiences and markets, Desired Query Space, Excluded Query Space, evidence basis and expected next actions. Quick Checks can only assess observable public positioning; Full Analyses must label the foundation as confirmed, inferred, open or conflict. Technical readiness must not substitute for business positioning. See `positioning-foundation.md`.
 - **Semantic Friction**: Select models that can handle nuanced domain terminology and maintain coherence across long contexts. Avoid over-optimization for keywords; focus on comprehension and summarization ability.
 - **Agent Readiness**: Use models that support tool calling and structured responses. The framework assumes that an LLM can interpret prompts, operate with agent cards, and interface with external services.
 - **AI Output & Liability Readiness**: For organisation-controlled chatbots and agents, review approved sources of truth, high-risk claims, grounding, uncertainty behaviour, guardrails, regression tests, traceability, incident response and human escalation. This is a technical and governance assessment, not legal advice.
@@ -28,6 +29,7 @@ AI Output & Liability Readiness module: https://github.com/Thom-Code-Cell/th-ana
 Agent Communication Readiness module: https://github.com/Thom-Code-Cell/th-analytica-framework/blob/main/agent-communication-readiness.md
 Agent Governance module: https://github.com/Thom-Code-Cell/th-analytica-framework/blob/main/agent-governance.md
 LLM Discovery / Locale Resolution module: https://github.com/Thom-Code-Cell/th-analytica-framework/blob/main/llm-discovery-locale-resolution.md
+Positioning Foundation / Layer 0: https://github.com/Thom-Code-Cell/th-analytica-framework/blob/main/positioning-foundation.md
 
 ## Evidence-First Content Standard
 - https://github.com/Thom-Code-Cell/th-analytica-framework/blob/main/evidence-first-content-standard.md
