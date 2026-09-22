@@ -4,6 +4,7 @@ The TH Analytica Framework is a methodology for assessing the technical and sema
 
 It reviews:
 
+- a mandatory, non-scored **Positioning Foundation (Layer 0)** covering intended positioning, target audiences, Desired Query Space, Excluded Query Space and supporting evidence
 - technical accessibility, crawlability and multilingual LLM discovery consistency
 - semantic and entity clarity
 - structured data and content architecture
@@ -13,6 +14,14 @@ It reviews:
 - physical-place identity and AI-glasses governance where a venue is relevant
 
 The framework does not guarantee crawling, indexing, model training, citations, mentions, recommendations, leads or revenue. Different AI products use different combinations of training data, search indexes, retrieval systems and live fetches.
+
+## Layer 0 before scoring
+
+Every Quick Check and Full Analysis starts by separating intended positioning from what public signals currently communicate.
+
+Quick Checks can only report observable positioning clarity. Full Analyses must establish a Positioning Brief, Desired Query Space, Excluded Query Space and evidence basis before strategic technical recommendations are prioritised.
+
+See [Positioning Foundation](positioning-foundation.md).
 
 ## Nine assessment dimensions
 
@@ -29,6 +38,7 @@ The framework does not guarantee crawling, indexing, model training, citations, 
 ## Documents
 
 - [Framework methodology](framework.md)
+- [Positioning Foundation / Layer 0](positioning-foundation.md)
 - [Definitions](definitions.md)
 - [Evidence-First Content and Citation Readiness Standard](evidence-first-content-standard.md)
 - [Source Integrity & Evidence Readiness](source-integrity-evidence-readiness.md)
