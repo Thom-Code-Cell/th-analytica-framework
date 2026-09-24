@@ -15,6 +15,7 @@ This file summarises the public TH Analytica Framework for systems that choose t
 - **LLM Discovery / Locale Resolution**: For advertised language variants, compare root and locale-specific `llms.txt` paths with hreflang, canonical and sitemap evidence. Record reachability and anomalies separately from readiness scoring.
 - **Continuous Learning**: Be prepared to upgrade models as new capabilities and safety improvements are released.
 - **Physical AI Readiness**: For a business with a physical venue, review canonical place identity, visible house rules, Entry and Exit QR markers, bounded policy duration and manual override. The v0.1 format is experimental and advisory; it does not guarantee that third-party AI glasses will recognise or enforce a policy.
+- **Personal Privacy Signal (PPS)**: Experimental person-level Physical-AI privacy protocol. A compatible device can broadcast an anonymous, rotating privacy preference without sending a name, phone number, e-mail address or GPS position. The reference Collective Privacy Shield allows a compatible receiver to protect the entire camera scene, including bystanders without PPS. This does not force third-party devices to comply; privacy-preserving authentication and anti-abuse controls remain unresolved standardisation work.
 
 For more details see the AI Visibility and AI Readiness guides in this repository.
 
@@ -24,6 +25,8 @@ Canonical website: https://th-analytica.com
 Contact: thomas@th-analytica.com
 
 Physical AI Governance specification: https://github.com/Thom-Code-Cell/th-analytica-framework/blob/main/physical-ai-governance.md
+Personal Privacy Signal specification: https://github.com/Thom-Code-Cell/th-analytica-framework/blob/main/personal-privacy-signal.md
+PPS public page: https://th-analytica.com/pps-privacy-signal
 Service page: https://th-analytica.com/physical-ai-readiness
 AI Output & Liability Readiness module: https://github.com/Thom-Code-Cell/th-analytica-framework/blob/main/ai-output-liability-readiness.md
 Agent Communication Readiness module: https://github.com/Thom-Code-Cell/th-analytica-framework/blob/main/agent-communication-readiness.md
