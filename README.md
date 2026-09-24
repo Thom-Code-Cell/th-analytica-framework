@@ -13,6 +13,7 @@ It reviews:
 - AI Zero-Click Presence & Direct Action Measurement, separating observed AI-answer presence, zero-click capability, structural action readiness and attributable business outcomes
 - agent readiness, Agent Governance, controlled AI outputs, Agent Communication Readiness, action boundaries, human approval and auditability
 - physical-place identity and AI-glasses governance where a venue is relevant
+- Personal Privacy Signal (PPS) for anonymous person-level privacy preferences and Collective Privacy Shield
 
 The framework does not guarantee crawling, indexing, model training, citations, mentions, recommendations, leads or revenue. Different AI products use different combinations of training data, search indexes, retrieval systems and live fetches.
 
@@ -50,6 +51,7 @@ See [Positioning Foundation](positioning-foundation.md).
 - [Agent Communication Readiness](agent-communication-readiness.md)
 - [Agent Governance](agent-governance.md)
 - [Physical AI Governance v0.1](physical-ai-governance.md)
+- [Personal Privacy Signal (PPS) Draft v1.0](personal-privacy-signal.md)
 - [Mandatory Privacy-by-Design Standard](privacy-by-design-standard.md)
 - [Full-analysis applicability gate](full-analysis-physical-ai-governance.md)
 - [AI Visibility Methodology](AI%20Visibility%20Methodology)
