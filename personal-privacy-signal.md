@@ -147,9 +147,12 @@ No unresolved protection may be represented as already implemented.
 
 Android Beta 1.0:
 
-- package: `ch.thanalytica.pps`
+- public package: `com.thanalytica.pps`
+- separate laboratory package: `com.thanalytica.pps.lab`
+- legacy private PoC package: `ch.thanalytica.pps`
 - minimum Android API: 26
-- current reference modes: sender, Collective Privacy Shield demo receiver, RSSI laboratory mode
+- public app: sender-only PPS protection; no camera, microphone, GPS/location or Bluetooth scan permission
+- laboratory app: Collective Privacy Shield demo receiver, RSSI measurement and local test logging
 - no user account required
 - no Internet permission in ordinary protection mode
 - no analytics or advertising SDK
