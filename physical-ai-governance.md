@@ -39,6 +39,12 @@ Only public coordinates are published. Exact coordinates for patient rooms, clas
 - **Not measured:** native recognition or compliance by third-party AI-glasses assistants.
 - **Not available:** universal control of arbitrary consumer devices.
 
+## Person-level privacy complement
+
+Location governance is complemented by the experimental **Personal Privacy Signal (PPS)**. PPS lets a compatible personal device broadcast an anonymous privacy preference without requiring a venue marker. The reference **Collective Privacy Shield** can protect the entire camera scene, including bystanders without PPS, without identifying which person sent the request.
+
+PPS is not a universal hardware control mechanism. Native third-party support is not measured, and privacy-preserving sender authentication and anti-abuse controls remain unresolved standardisation work. See `personal-privacy-signal.md`.
+
 ## Resources
 
 - Website: `https://th-analytica.com/physical-ai-readiness`
