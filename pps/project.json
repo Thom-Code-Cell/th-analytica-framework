@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0",
+  "project": "Personal Privacy Signal",
+  "abbreviation": "PPS",
+  "originator": "Thomas Hullin",
+  "maintainer": "TH Analytica",
+  "jurisdiction_origin": "Switzerland",
+  "status": "experimental-open-protocol-proposal",
+  "canonical_specification": "https://github.com/Thom-Code-Cell/th-analytica-framework/blob/main/personal-privacy-signal.md",
+  "canonical_repository": "https://github.com/Thom-Code-Cell/th-analytica-framework",
+  "project_page": "https://th-analytica.com/pps-privacy-signal",
+  "initial_public_draft": {
+    "timestamp_utc": "2026-09-24T20:57:19Z",
+    "commit": "871a690580849d8d48573ef403831e48edbbbaff",
+    "message": "Add Personal Privacy Signal draft v1.0"
+  },
+  "governance": {
+    "directory": "pps/",
+    "conformance_designation": "PPS Compatible",
+    "official_certification_registry_active": false
+  },
+  "licensing": {
+    "active_umbrella_license": false,
+    "note": "See pps/LICENSING-PLAN.md. Do not infer unrestricted reuse from public repository visibility."
+  },
+  "trademark": {
+    "registration_claimed": false,
+    "registered_symbol_authorized": false,
+    "policy": "pps/TRADEMARK-POLICY.md"
+  },
+  "updated": "2026-09-26"
+}
