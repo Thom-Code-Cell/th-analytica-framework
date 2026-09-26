@@ -52,6 +52,7 @@ See [Positioning Foundation](positioning-foundation.md).
 - [Agent Governance](agent-governance.md)
 - [Physical AI Governance v0.1](physical-ai-governance.md)
 - [Personal Privacy Signal (PPS) Draft v1.0](personal-privacy-signal.md)
+- [PPS governance, provenance, conformance and branding](pps/README.md)
 - [Mandatory Privacy-by-Design Standard](privacy-by-design-standard.md)
 - [Full-analysis applicability gate](full-analysis-physical-ai-governance.md)
 - [AI Visibility Methodology](AI%20Visibility%20Methodology)

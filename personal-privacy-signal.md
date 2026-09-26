@@ -1,7 +1,7 @@
 # TH Analytica Personal Privacy Signal (PPS) — Draft v1.0
 
 Status: **Experimental open protocol proposal**  
-Updated: 2026-09-24
+Updated: 2026-09-26
 
 ## Direct answer
 
@@ -170,10 +170,24 @@ Public project page:
 - **Not available:** universal forced control of arbitrary third-party devices.
 - **Unresolved:** standardised privacy-preserving sender authentication and anti-denial-of-service protection.
 
-## Governance
+## Governance and provenance
 
-The protocol should remain implementation-friendly for device manufacturers.
+PPS is originated and maintained by Thomas Hullin / TH Analytica. The canonical public specification is this file in the `Thom-Code-Cell/th-analytica-framework` repository.
 
-The protocol definition may be openly implemented, while TH Analytica branding, certification, assessment and governance services remain separate from the open technical format.
+The project governance pack is maintained in [pps/](pps/README.md), including:
+
+- [provenance and canonical source](pps/ORIGIN.md);
+- [governance](pps/GOVERNANCE.md);
+- [conformance requirements](pps/CONFORMANCE.md);
+- [name and trademark-use policy](pps/TRADEMARK-POLICY.md);
+- [versioning](pps/VERSIONING.md);
+- [security policy](pps/SECURITY.md);
+- [licensing plan](pps/LICENSING-PLAN.md).
+
+The protocol should remain implementation-friendly for device manufacturers, while technical implementation remains separate from endorsement, certification and branding.
+
+A product may only claim official **PPS Compatible** status under the conformance programme then in force. Parsing or transmitting the payload alone does not constitute official certification.
+
+At the time of this Draft v1.0 publication, no public PPS certification registry is active and the repository has no umbrella licence. The open-implementation intent must therefore not be confused with an already-granted unrestricted copyright or software licence. See the licensing plan before reuse.
 
 PPS must not be used to imply legal advice, guaranteed compliance or guaranteed technical control over third-party hardware.
