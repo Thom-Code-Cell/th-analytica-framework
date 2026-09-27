@@ -62,7 +62,7 @@
         "identity_to_authorized_emergency_services"
       ],
       "properties": {
-        "alert_user": { "enum": ["AUTOMATIC", "USER_INITIATED"] },
+        "alert_user": { "enum": ["AUTOMATIC", "USER_INITIATED", "DENY"] },
         "contact_emergency_services": {
           "enum": ["USER_CONFIRMATION_REQUIRED", "AUTOMATIC_IF_HIGH_CONFIDENCE", "DENY"]
         },
