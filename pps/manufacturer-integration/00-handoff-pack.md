@@ -1,0 +1,93 @@
+# PPS Manufacturer Handoff Pack
+
+Version: PPS Draft v1.0
+Prepared: 2026-09-27
+Maintainer: Thomas Hullin / TH Analytica
+
+This page is the single entry point for a manufacturer, platform or privacy-engineering team evaluating Personal Privacy Signal (PPS).
+
+## 1. Canonical specification
+
+https://github.com/Thom-Code-Cell/th-analytica-framework/blob/main/personal-privacy-signal.md
+
+Use this as the authoritative protocol and governance reference.
+
+## 2. Technical quick start
+
+https://github.com/Thom-Code-Cell/th-analytica-framework/blob/main/pps/manufacturer-integration/01-technical-quick-start.md
+
+Contains the BLE transport, experimental service-data UUID, 8-byte payload layout, privacy levels, DENY flags and receiver minimum behavior.
+
+## 3. Integration checklist
+
+https://github.com/Thom-Code-Cell/th-analytica-framework/blob/main/pps/manufacturer-integration/02-integration-checklist.md
+
+Use this to map PPS to the actual capabilities and limitations of a device or platform.
+
+## 4. Limited pilot plan
+
+https://github.com/Thom-Code-Cell/th-analytica-framework/blob/main/pps/manufacturer-integration/03-pilot-plan.md
+
+Defines a small proof of concept without requiring a product commitment.
+
+## 5. Vendor technical questionnaire
+
+https://github.com/Thom-Code-Cell/th-analytica-framework/blob/main/pps/manufacturer-integration/04-vendor-questionnaire.md
+
+The answers help determine whether PPS belongs at firmware, OS, companion-app or application level.
+
+## 6. Public conformance vectors
+
+https://github.com/Thom-Code-Cell/th-analytica-framework/blob/main/pps/conformance/test_vectors.json
+
+Positive and negative Draft v1.0 wire-format vectors are provided for parser testing.
+
+Conformance notes:
+https://github.com/Thom-Code-Cell/th-analytica-framework/blob/main/pps/conformance/README.md
+
+## 7. Frozen Draft v1.0 baseline
+
+https://github.com/Thom-Code-Cell/th-analytica-framework/blob/main/pps/BASELINE-DRAFT-v1.0.md
+
+Immutable baseline commit:
+`445caad6b225a6df01ba4f66a051089b0b6c07c5`
+
+## Current Android reference implementation
+
+- applicationId: `com.thanalytica.pps`
+- checked version: `1.0.0-beta2`
+- versionCode: `12`
+- transport: Bluetooth Low Energy Service Data
+- public sender: no account required
+- ordinary protection mode: no camera, microphone or GPS/location collection
+- rotating temporary token
+- PPS MAXIMUM expresses seven DENY preferences
+
+## Evaluation request
+
+A manufacturer does not need to support every PPS flag to run a pilot.
+
+The first useful proof of concept is:
+
+1. detect a valid PPS Draft v1.0 signal;
+2. parse it correctly;
+3. map at least one supported privacy request to real local behavior;
+4. avoid identifying the signal sender;
+5. restore normal behavior after the request expires;
+6. document unsupported flags and exceptions.
+
+## Important boundaries
+
+- PPS Draft v1.0 is experimental.
+- It does not claim that current third-party products already support PPS.
+- The signal is not cryptographically authenticated in Draft v1.0.
+- Passing the public wire-format vectors is not official certification.
+- The preferred official compatibility wording is **Personal Privacy Signal Compatible**.
+- Legal, safety and product responsibilities remain with the receiving implementation.
+
+Technical contact:
+Thomas Hullin
+TH Analytica
+Switzerland
+thomas@th-analytica.com
+https://th-analytica.com/pps-privacy-signal
