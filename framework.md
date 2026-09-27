@@ -57,7 +57,7 @@ How clearly the website explains what the company does.
 ## 7 Agent Readiness, Governance and Portability
 How clearly automated systems can interpret available actions, constraints and approval steps, and whether organisation-controlled generative interfaces can communicate within defined, testable and auditable boundaries. Real-world actions remain subject to security controls and explicit human approval.
 
-This dimension includes **AI Output & Liability Readiness** for customer-facing chatbots, voice assistants and agents. Applicable assessments review approved sources of truth, high-risk claims, grounding, uncertainty behaviour, output guardrails, regression testing, traceability, incident response and human escalation. The framework distinguishes independent statements by third-party AI products from outputs of systems deployed, configured or presented by the organisation.
+This dimension includes **AI Output & Liability Readiness** for customer-facing chatbots, voice assistants and agents. Applicable assessments review approved sources of truth, high-risk claims, grounding, uncertainty behaviour, output guardrails, regression testing, traceability, incident response and human escalation. The framework distinguishes independent statements by third-party AI products from outputs of systems deployed, configured or presented by the organisation.\n\nIt also includes a mandatory **AI Interaction & Data Governance applicability check**. Where an organisation-controlled AI interface accepts open or semi-open user input, the Full Analysis reviews sensitive-input exposure, processing purposes, consent or legal-basis status, secondary use, advertising/profiling/model-improvement reuse, data minimisation, memory, retention, deletion, processors, transfers, security, transparency and human escalation. Every applicable assessment also performs a necessity test: if the same user outcome can be achieved with clearer website content, structured data, bounded forms or defined Agent Actions, **no chatbot required** is a valid result.
 
 It also includes **Agent Communication Readiness** as a mandatory full-analysis module. This assesses whether an external AI agent, when it has an authorised communication tool, can identify a legitimate telephone, email, contact-form or booking/request channel, formulate the required inquiry and reach a clear human handover or verified service confirmation. Public contact data does not itself prove that a third-party agent can call or send email, and it does not grant permission for external communication.
 
@@ -73,7 +73,7 @@ Every full analysis must identify provider-bound dependencies, model-neutral sou
 
 The core maturity path is: **found → understood → correctly answered → contactable with clear boundaries → permitted within defined controls → portable across compatible runtimes → safely acted → auditable and revocable**.
 
-Full methodology and reporting rules: `ai-output-liability-readiness.md`, `agent-communication-readiness.md`, `agent-governance.md` and `agent-portability.md`.
+Full methodology and reporting rules: `ai-output-liability-readiness.md`, `ai-interaction-data-governance.md`, `agent-communication-readiness.md`, `agent-governance.md` and `agent-portability.md`.
 
 ## 8 Source Concentration & AI Visibility Resilience
 How strongly observed AI visibility depends on individual source families or individual AI/search systems. Full analyses should distinguish first-party resilience from third-party dependence and flag concentration risk where one source ecosystem or one AI system dominates the result.
@@ -137,7 +137,7 @@ The TH Analytica Framework can be used for:
 • AI Zero-Click Presence & Direct Action Measurement across observed AI answers, surfaced actions and separately attributable business outcomes  
 • Source Integrity & Evidence Readiness, including claim-level verification of business-critical AI answers
 • improving structured information for AI systems
-• assessing controlled AI outputs, claim guardrails and human escalation for organisation-operated conversational systems
+• assessing controlled AI outputs, claim guardrails and human escalation for organisation-operated conversational systems\n• assessing AI Interaction & Data Governance for open chat, voice and agent inputs, including sensitive-data exposure, secondary use, retention, transparency and safer bounded alternatives\n• measuring Recommendation Effectiveness & Robustness with baseline → intervention → re-test comparisons across relevant decision situations
 • assessing Agent Communication Readiness across telephone, email, forms and booking/request paths with explicit authorisation boundaries
 • assessing Agent Governance across identity, permissions, allowed/prohibited actions, approval thresholds, limits, auditability, revocation and incident escalation
 • assessing Agent Portability across model-neutral sources of truth, reusable skills/workflows, interfaces, governance and credential separation, exportability and fallback continuity
