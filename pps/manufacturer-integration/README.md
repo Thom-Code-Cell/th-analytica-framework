@@ -1,0 +1,27 @@
+# PPS Manufacturer Integration Kit
+
+Status: Draft v1.0 integration material
+Audience: smart-glasses, wearable, camera, operating-system and Physical-AI engineering teams
+
+## Goal
+
+Give a manufacturer enough information to evaluate Personal Privacy Signal (PPS) without reverse-engineering the Android reference app.
+
+## Start here
+
+1. `01-technical-quick-start.md`
+2. `02-integration-checklist.md`
+3. `03-pilot-plan.md`
+4. `04-vendor-questionnaire.md`
+5. `../conformance/README.md`
+
+Canonical specification: `../../personal-privacy-signal.md`
+
+## Current checked Android reference build
+
+- applicationId: `com.thanalytica.pps`
+- version: `1.0.0-beta2`
+- versionCode: `12`
+- protocol: PPS Draft v1.0
+
+PPS remains experimental. This kit does not claim adoption by any commercial smart-glasses vendor.
