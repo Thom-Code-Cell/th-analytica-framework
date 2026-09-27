@@ -79,7 +79,7 @@ Public Android download:
 https://th-analytica.com/pps-privacy-signal
 
 Published APK SHA-256:
-`a3f72caa3bfc140acfa4838f97ff2b0d2d4b7a42e191b34bfdc1bb8ca34a3119`
+`38e1a66c4b46910d09c4756a21dcbf0f4b96f9765a311051d4327a97a05c9eec`
 
 The Android package remains `com.thanalytica.pps` and uses the same stable
 release signer as Beta 1.0.0-beta2 so existing Beta-2 installations can be
