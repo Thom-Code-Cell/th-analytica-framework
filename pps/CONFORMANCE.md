@@ -14,9 +14,11 @@ This is a descriptive implementation claim, not certification.
 
 An implementation may be submitted or documented as a conformance candidate when it has a reproducible test record against the official requirements below.
 
-### 3. PPS Compatible
+### 3. Personal Privacy Signal Compatible
 
-"PPS Compatible" is reserved by the official project for implementations that have passed the applicable official conformance process and have explicit permission to use that designation or badge.
+The official compatibility designation is **Personal Privacy Signal Compatible**. The stand-alone wording **"PPS Compatible" is not used as the official badge wording**, because PPS is already widely used in unrelated technical fields.
+
+The official designation is reserved for implementations that have passed the applicable official conformance process and have explicit permission to use that designation or badge.
 
 **No implementation should claim official PPS certification solely because it can parse or transmit the BLE payload.**
 
@@ -86,3 +88,8 @@ At minimum, interoperability testing should include:
 ## No legal certification
 
 Technical conformance does not certify compliance with Swiss, EU or other privacy law and must not be marketed as legal approval.
+
+
+## Public wire-format test vectors
+
+The project publishes implementation-neutral Draft v1.0 test vectors in `pps/conformance/`. Passing these public vectors is useful evidence but does not, by itself, establish full conformance or certification.
