@@ -90,3 +90,22 @@ AI Output & Liability Readiness describes whether an organisation-controlled gen
 ## Agent Portability
 
 Agent Portability describes the degree to which organisation-controlled knowledge, instructions, reusable skills or workflows, interfaces, governance rules, credentials and fallback paths can be exported, reused or reconnected across compatible AI-agent runtimes without rebuilding the complete operating model around one provider. It assesses architectural transferability, not guaranteed behavioural equivalence between models.
+
+
+---
+
+## AI Interaction & Data Governance
+
+AI Interaction & Data Governance describes how an organisation-controlled AI interface collects, processes, retains, shares and governs user input and derived data. It covers sensitive-input exposure, purpose and legal-basis status, consent where applicable, secondary use, advertising or profiling, model-improvement reuse, memory, retention, deletion, processors, transfers, security, transparency, human escalation and the question whether a narrower non-chatbot interaction would meet the same need with less data.
+
+---
+
+## Recommendation Effectiveness
+
+Recommendation Effectiveness describes whether verified company attributes actually appear to influence observed AI recommendation outcomes in defined decision situations. It is measured separately from website readiness using controlled baseline and re-test observations.
+
+---
+
+## Recommendation Robustness
+
+Recommendation Robustness describes how consistently an observed recommendation result persists across reasonable variations in prompts, repeated runs, dates, relevant systems, languages or nearby decision contexts. It reports observed test stability and does not claim access to hidden ranking probabilities or proprietary model internals.
