@@ -17,10 +17,13 @@ Canonical protocol specification: [../personal-privacy-signal.md](../personal-pr
 - [ORIGIN.md](ORIGIN.md) — provenance and canonical source
 - [GOVERNANCE.md](GOVERNANCE.md) — decision and change process
 - [CONFORMANCE.md](CONFORMANCE.md) — technical compatibility criteria
+- [conformance/](conformance/README.md) — public Draft v1.0 wire-format test vectors
 - [TRADEMARK-POLICY.md](TRADEMARK-POLICY.md) — rules for names, badges and compatibility claims
 - [VERSIONING.md](VERSIONING.md) — draft, candidate and stable version rules
 - [SECURITY.md](SECURITY.md) — disclosure and security expectations
 - [LICENSING-PLAN.md](LICENSING-PLAN.md) — planned open-core licensing split; not yet an active licence
 - [project.json](project.json) — machine-readable provenance metadata
+- [BASELINE-DRAFT-v1.0.md](BASELINE-DRAFT-v1.0.md) — frozen Draft v1.0 reference
+- [manufacturer-integration/](manufacturer-integration/README.md) — manufacturer evaluation and pilot kit
 
 Until an explicit licence file is adopted, do not infer unrestricted permission to copy, modify or redistribute project material merely because the repository is public.
