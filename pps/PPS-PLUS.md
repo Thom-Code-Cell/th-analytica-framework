@@ -158,3 +158,34 @@ rules or lawful public-authority processing.
 
 Any exception should be documented, narrow, auditable and visible to the
 responsible operator or system owner.
+
+
+## Compact QR policy
+
+The Android reference implementation can encode the personal policy as a
+compact `pps://policy/0.1` URI for QR-based exchange.
+
+The compact representation repeats fixed privacy restrictions explicitly so it
+has the same restrictive meaning as the JSON representation. Current fields
+include:
+
+- `cap`: ordinary capture
+- `id`: identification
+- `prof`: profiling
+- `train`: training
+- `safety`: safety/emergency inference
+- `alert`: user warning
+- `emergency`: emergency-service escalation
+- `loc`: emergency-only location disclosure
+- `eid`: emergency-only identity disclosure
+- `emotion`: emotion inference
+- `ret`: default retention
+- `cuse`: commercial use
+- `cact`: commercial action
+- `law`: automatic general law-enforcement reporting
+
+If safety inference is `deny`, alert, emergency escalation, emergency location
+and emergency identity disclosure are also serialized as `deny`.
+
+The compact URI is experimental and versioned. Implementers must not infer
+permission from an omitted field.
