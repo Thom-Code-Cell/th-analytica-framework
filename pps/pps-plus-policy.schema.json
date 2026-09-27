@@ -1,0 +1,88 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://th-analytica.com/schemas/pps-plus-policy-0.1.schema.json",
+  "title": "PPS+ Personal Policy 0.1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "protocol",
+    "schema_version",
+    "scope",
+    "identity_free_policy",
+    "capture",
+    "inference",
+    "retention",
+    "emergency",
+    "actions",
+    "enforcement",
+    "status"
+  ],
+  "properties": {
+    "protocol": { "const": "PPS+" },
+    "schema_version": { "const": "0.1" },
+    "scope": { "const": "personal" },
+    "identity_free_policy": { "const": true },
+    "capture": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["default", "safety_emergency_processing"],
+      "properties": {
+        "default": { "enum": ["DENY", "NOT_REQUESTED"] },
+        "safety_emergency_processing": { "enum": ["TRANSIENT_ALLOWED", "DENY"] }
+      }
+    },
+    "inference": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["safety", "identification", "profiling", "emotion"],
+      "properties": {
+        "safety": { "enum": ["ALLOWED", "DENY"] },
+        "identification": { "enum": ["DENY", "NOT_REQUESTED"] },
+        "profiling": { "enum": ["DENY", "NOT_REQUESTED"] },
+        "emotion": { "enum": ["DENY", "NOT_REQUESTED"] }
+      }
+    },
+    "retention": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["default", "training", "commercial_use"],
+      "properties": {
+        "default": { "enum": ["0_SECONDS", "POLICY_DEFINED"] },
+        "training": { "enum": ["DENY", "NOT_REQUESTED"] },
+        "commercial_use": { "enum": ["DENY", "NOT_REQUESTED"] }
+      }
+    },
+    "emergency": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "alert_user",
+        "contact_emergency_services",
+        "share_location",
+        "identity_to_authorized_emergency_services"
+      ],
+      "properties": {
+        "alert_user": { "enum": ["AUTOMATIC", "USER_INITIATED"] },
+        "contact_emergency_services": {
+          "enum": ["USER_CONFIRMATION_REQUIRED", "AUTOMATIC_IF_HIGH_CONFIDENCE", "DENY"]
+        },
+        "share_location": { "enum": ["EMERGENCY_ONLY", "DENY"] },
+        "identity_to_authorized_emergency_services": {
+          "enum": ["EMERGENCY_ONLY", "DENY"]
+        }
+      }
+    },
+    "actions": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["commercial_action", "automatic_law_enforcement_reporting", "safety_action"],
+      "properties": {
+        "commercial_action": { "enum": ["DENY", "NOT_REQUESTED"] },
+        "automatic_law_enforcement_reporting": { "const": "DENY" },
+        "safety_action": { "enum": ["ALLOWED", "DENY"] }
+      }
+    },
+    "enforcement": { "const": "REQUIRES_COMPATIBLE_DEVICE_OR_PLATFORM" },
+    "status": { "const": "BETA_POLICY" }
+  }
+}
