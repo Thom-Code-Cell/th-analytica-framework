@@ -10,8 +10,8 @@ It reviews:
 - structured data and content architecture
 - trust, authorship and external corroboration
 - Source Integrity & Evidence Readiness, including claim-level source verification for business-critical AI answers
-- AI Zero-Click Presence & Direct Action Measurement, separating observed AI-answer presence, zero-click capability, structural action readiness and attributable business outcomes
-- agent readiness, Agent Governance, controlled AI outputs, Agent Communication Readiness, action boundaries, human approval and auditability
+- AI Zero-Click Presence & Direct Action Measurement, separating observed AI-answer presence, zero-click capability, structural action readiness and attributable business outcomes\n- Recommendation Effectiveness & Robustness, separating discovery, understanding, shortlist consideration, explicit recommendation and actionable next steps
+- agent readiness, Agent Governance, controlled AI outputs, AI Interaction & Data Governance, Agent Communication Readiness, action boundaries, human approval and auditability
 - physical-place identity and AI-glasses governance where a venue is relevant
 - Personal Privacy Signal (PPS) for anonymous person-level privacy preferences and Collective Privacy Shield
 
@@ -47,7 +47,7 @@ See [Positioning Foundation](positioning-foundation.md).
 - [AI Zero-Click Presence & Direct Action Measurement](ai-zero-click-presence.md)
 - [Local AI Data Sources & Entity Consistency](local-ai-data-sources.md)
 - [LLM Discovery / Locale Resolution](llm-discovery-locale-resolution.md)
-- [AI Output & Liability Readiness](ai-output-liability-readiness.md)
+- [AI Output & Liability Readiness](ai-output-liability-readiness.md)\n- [AI Interaction & Data Governance](ai-interaction-data-governance.md)\n- [Recommendation Effectiveness & Robustness](recommendation-effectiveness-robustness.md)
 - [Agent Communication Readiness](agent-communication-readiness.md)
 - [Agent Governance](agent-governance.md)
 - [Physical AI Governance v0.1](physical-ai-governance.md)
