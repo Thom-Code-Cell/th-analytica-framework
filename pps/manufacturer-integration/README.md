@@ -26,3 +26,16 @@ Canonical specification: `../../personal-privacy-signal.md`
 - protocol: PPS Draft v1.0
 
 PPS remains experimental. This kit does not claim adoption by any commercial smart-glasses vendor.
+
+
+## PPS+ candidate
+
+A richer optional policy layer is available for manufacturer evaluation:
+
+- `../../pps/PPS-PLUS.md`
+- `../../pps/pps-plus-policy.schema.json`
+
+Candidate Android version: `1.1.0-beta1` / versionCode `13`.
+
+The checked public Android release remains 1.0.0-beta2 until the PPS+ build,
+signature and upgrade test are completed.
