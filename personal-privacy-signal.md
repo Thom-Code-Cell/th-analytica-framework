@@ -143,6 +143,26 @@ Areas for further work include:
 
 No unresolved protection may be represented as already implemented.
 
+## PPS+ personal policy layer
+
+PPS+ is an experimental richer policy layer above the current strict PPS
+MAXIMUM signal. It separates capture, inference, identification,
+retention/sharing and action permissions so safety-capable Physical-AI systems
+can remain useful without treating broad personal analysis as automatically
+permitted.
+
+PPS+ does not change the current Draft v1.0 BLE payload in its first Android
+candidate.
+
+Technical overview:
+
+- [PPS+ Personal Policy Layer](pps/PPS-PLUS.md)
+- [PPS+ Policy JSON Schema 0.1](pps/pps-plus-policy.schema.json)
+
+The current PPS+ Android candidate is `1.1.0-beta1` / versionCode `13`.
+It is an implementation candidate until build, signature and upgrade
+verification are completed.
+
 ## Reference implementation
 
 Android reference app (current checked build: `1.0.0-beta2`, versionCode `12`):
