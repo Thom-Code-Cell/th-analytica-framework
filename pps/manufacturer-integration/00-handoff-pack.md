@@ -55,8 +55,8 @@ Immutable baseline commit:
 ## Current Android reference implementation
 
 - applicationId: `com.thanalytica.pps`
-- checked version: `1.0.0-beta2`
-- versionCode: `12`
+- current public version: `1.1.0-beta1`
+- versionCode: `13`
 - transport: Bluetooth Low Energy Service Data
 - public sender: no account required
 - ordinary protection mode: no camera, microphone or GPS/location collection
@@ -72,8 +72,18 @@ retention/sharing and action permissions.
 - Overview: https://github.com/Thom-Code-Cell/th-analytica-framework/blob/main/pps/PPS-PLUS.md
 - JSON Schema: https://github.com/Thom-Code-Cell/th-analytica-framework/blob/main/pps/pps-plus-policy.schema.json
 
-The current PPS+ Android candidate is `1.1.0-beta1` / versionCode `13`.
+PPS+ Android Beta `1.1.0-beta1` / versionCode `13` is publicly available.
 The original BLE PPS MAXIMUM payload remains unchanged for compatibility.
+
+Public Android download:
+https://th-analytica.com/pps-privacy-signal
+
+Published APK SHA-256:
+`a3f72caa3bfc140acfa4838f97ff2b0d2d4b7a42e191b34bfdc1bb8ca34a3119`
+
+The Android package remains `com.thanalytica.pps` and uses the same stable
+release signer as Beta 1.0.0-beta2 so existing Beta-2 installations can be
+updated in place.
 
 ## Evaluation request
 
