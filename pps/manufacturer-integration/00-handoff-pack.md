@@ -63,6 +63,18 @@ Immutable baseline commit:
 - rotating temporary token
 - PPS MAXIMUM expresses seven DENY preferences
 
+## PPS+ policy extension
+
+For devices that need more nuance than a binary capture block, PPS+ adds a
+machine-readable policy layer for capture, inference, identification,
+retention/sharing and action permissions.
+
+- Overview: https://github.com/Thom-Code-Cell/th-analytica-framework/blob/main/pps/PPS-PLUS.md
+- JSON Schema: https://github.com/Thom-Code-Cell/th-analytica-framework/blob/main/pps/pps-plus-policy.schema.json
+
+The current PPS+ Android candidate is `1.1.0-beta1` / versionCode `13`.
+The original BLE PPS MAXIMUM payload remains unchanged for compatibility.
+
 ## Evaluation request
 
 A manufacturer does not need to support every PPS flag to run a pilot.
