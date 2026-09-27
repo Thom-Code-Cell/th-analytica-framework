@@ -35,17 +35,22 @@ Safety assistance and law-enforcement reporting are separate policy domains.
 
 ## Current Android PPS+ candidate
 
-The current Android candidate is planned as:
+The current public Android beta is:
 
 - public package: `com.thanalytica.pps`
-- candidate app version: `1.1.0-beta1`
-- candidate versionCode: `13`
+- app version: `1.1.0-beta1`
+- versionCode: `13`
 - existing PPS MAXIMUM BLE payload: unchanged
 - PPS+ policy storage: local to the user's Android device
 - identity in PPS+ policy: none required
 - policy export: readable summary, JSON, compact `pps://` URI and QR code
 
-This is an implementation candidate, not a claim of commercial-device support.
+The signed Android beta is available from https://th-analytica.com/pps-privacy-signal.
+
+Published APK SHA-256:
+`a3f72caa3bfc140acfa4838f97ff2b0d2d4b7a42e191b34bfdc1bb8ca34a3119`
+
+This is a working PPS+ reference implementation, not a claim of commercial-device support.
 
 ## Policy domains
 
