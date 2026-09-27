@@ -37,5 +37,11 @@ A richer optional policy layer is available for manufacturer evaluation:
 
 Candidate Android version: `1.1.0-beta1` / versionCode `13`.
 
-The checked public Android release remains 1.0.0-beta2 until the PPS+ build,
-signature and upgrade test are completed.
+The current public Android release is PPS+ 1.1.0-beta1 / versionCode 13.
+The signed APK is published through the official TH Analytica PPS page.
+
+SHA-256:
+`a3f72caa3bfc140acfa4838f97ff2b0d2d4b7a42e191b34bfdc1bb8ca34a3119`
+
+Package ID remains `com.thanalytica.pps`; the release signer is continuous
+with 1.0.0-beta2 for in-place Android updates.
