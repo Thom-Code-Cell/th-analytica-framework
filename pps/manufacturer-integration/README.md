@@ -41,7 +41,7 @@ The current public Android release is PPS+ 1.1.0-beta1 / versionCode 13.
 The signed APK is published through the official TH Analytica PPS page.
 
 SHA-256:
-`a3f72caa3bfc140acfa4838f97ff2b0d2d4b7a42e191b34bfdc1bb8ca34a3119`
+`38e1a66c4b46910d09c4756a21dcbf0f4b96f9765a311051d4327a97a05c9eec`
 
 Package ID remains `com.thanalytica.pps`; the release signer is continuous
 with 1.0.0-beta2 for in-place Android updates.
