@@ -1,0 +1,13 @@
+{
+  "suite": "PPS Draft v1.0 wire conformance",
+  "suite_version": "1.0.0",
+  "vectors": [
+    {"id":"max-01020304","valid":true,"hex":"01037f0001020304","version":1,"level":3,"flags":127,"reserved":0,"token":16909060},
+    {"id":"max-zero-token","valid":true,"hex":"01037f0000000000","version":1,"level":3,"flags":127,"reserved":0,"token":0},
+    {"id":"unknown-version","valid":false,"hex":"02037f0001020304","reason":"unsupported-version"},
+    {"id":"short-payload","valid":false,"hex":"01037f00010203","reason":"length"},
+    {"id":"long-payload","valid":false,"hex":"01037f000102030400","reason":"length"},
+    {"id":"reserved-byte","valid":false,"hex":"01037f0101020304","reason":"reserved-byte"},
+    {"id":"reserved-flag","valid":false,"hex":"0103ff0001020304","reason":"reserved-flag"}
+  ]
+}

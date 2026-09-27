@@ -1,7 +1,7 @@
 # TH Analytica Personal Privacy Signal (PPS) — Draft v1.0
 
 Status: **Experimental open protocol proposal**  
-Updated: 2026-09-26
+Updated: 2026-09-27
 
 ## Direct answer
 
@@ -145,7 +145,7 @@ No unresolved protection may be represented as already implemented.
 
 ## Reference implementation
 
-Android Beta 1.0:
+Android reference app (current checked build: `1.0.0-beta2`, versionCode `12`):
 
 - public package: `com.thanalytica.pps`
 - separate laboratory package: `com.thanalytica.pps.lab`
@@ -186,8 +186,17 @@ The project governance pack is maintained in [pps/](pps/README.md), including:
 
 The protocol should remain implementation-friendly for device manufacturers, while technical implementation remains separate from endorsement, certification and branding.
 
-A product may only claim official **PPS Compatible** status under the conformance programme then in force. Parsing or transmitting the payload alone does not constitute official certification.
+A product may only claim official **Personal Privacy Signal Compatible** status under the conformance programme then in force. Parsing or transmitting the payload alone does not constitute official certification.
 
 At the time of this Draft v1.0 publication, no public PPS certification registry is active and the repository has no umbrella licence. The open-implementation intent must therefore not be confused with an already-granted unrestricted copyright or software licence. See the licensing plan before reuse.
 
 PPS must not be used to imply legal advice, guaranteed compliance or guaranteed technical control over third-party hardware.
+
+
+## Draft v1.0 baseline and manufacturer material
+
+Frozen baseline: [pps/BASELINE-DRAFT-v1.0.md](pps/BASELINE-DRAFT-v1.0.md)
+
+Public wire-format test vectors: [pps/conformance/](pps/conformance/README.md)
+
+Manufacturer evaluation and pilot kit: [pps/manufacturer-integration/](pps/manufacturer-integration/README.md)
