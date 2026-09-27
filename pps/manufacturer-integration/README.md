@@ -9,6 +9,7 @@ Give a manufacturer enough information to evaluate Personal Privacy Signal (PPS)
 
 ## Start here
 
+0. [`00-handoff-pack.md`](00-handoff-pack.md) — single manufacturer handoff entry point
 1. `01-technical-quick-start.md`
 2. `02-integration-checklist.md`
 3. `03-pilot-plan.md`
