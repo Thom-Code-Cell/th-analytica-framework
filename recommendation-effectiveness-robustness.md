@@ -17,6 +17,12 @@ It separates:
 
 These states must not be collapsed into one readiness score.
 
+## Entity resolution and implementation state
+
+For each response, code **name mention**, **unambiguous entity match**, **canonical or verified URL citation**, **shortlist**, **explicit recommendation**, and **verified action** as separate fields. Record approved name, spelling, product/subbrand and canonical-domain variants before measurement; keep the matching rule and exceptions versioned. A URL-only hit is not automatically a recommendation; an unlinked name mention is not a citation. Ambiguous matches require human adjudication and must not be silently counted.
+
+Every remediation is tracked independently as `erkannt → vorgeschlagen → umgesetzt → verifiziert` with observation URL, owner, release evidence, verification date and test result. A proposal is not an implementation, and a deployed change is not a verified visibility gain. This is a TH Analytica reporting convention, not an external standard.
+
 ## Core method
 
 Where an intervention is being evaluated, use:

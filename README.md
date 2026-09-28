@@ -46,6 +46,7 @@ See [Positioning Foundation](positioning-foundation.md).
 - [Source Integrity & Evidence Readiness](source-integrity-evidence-readiness.md)
 - [AI Zero-Click Presence & Direct Action Measurement](ai-zero-click-presence.md)
 - [Local AI Data Sources & Entity Consistency](local-ai-data-sources.md)
+- [Visual AI Visibility measurement](visual-ai-visibility.md)
 - [LLM Discovery / Locale Resolution](llm-discovery-locale-resolution.md)
 - [AI Output & Liability Readiness](ai-output-liability-readiness.md)\n- [AI Interaction & Data Governance](ai-interaction-data-governance.md)\n- [Recommendation Effectiveness & Robustness](recommendation-effectiveness-robustness.md)
 - [Agent Communication Readiness](agent-communication-readiness.md)
