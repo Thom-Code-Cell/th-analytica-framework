@@ -73,7 +73,9 @@ Every full analysis must identify provider-bound dependencies, model-neutral sou
 
 The core maturity path is: **found → understood → correctly answered → contactable with clear boundaries → permitted within defined controls → portable across compatible runtimes → safely acted → auditable and revocable**.
 
-Full methodology and reporting rules: `ai-output-liability-readiness.md`, `ai-interaction-data-governance.md`, `agent-communication-readiness.md`, `agent-governance.md` and `agent-portability.md`.
+For event-related analyses, this dimension also includes the mandatory applicability module **Attendance Conversion & Event Agent Readiness**. It checks whether ticketing or registration systems can support reminders, attendance confirmation, explicit cancellation or place release, waiting-list reallocation and measurable no-show reduction workflows within defined identity, consent and approval boundaries. Silence or inferred intent is never treated as permission for a consequential ticket action.
+
+Full methodology and reporting rules: `ai-output-liability-readiness.md`, `ai-interaction-data-governance.md`, `agent-communication-readiness.md`, `agent-governance.md`, `agent-portability.md` and `attendance-conversion-agent-readiness.md`.
 
 ## 8 Source Concentration & AI Visibility Resilience
 How strongly observed AI visibility depends on individual source families or individual AI/search systems. Full analyses should distinguish first-party resilience from third-party dependence and flag concentration risk where one source ecosystem or one AI system dominates the result.
@@ -141,6 +143,7 @@ The TH Analytica Framework can be used for:
 • assessing Agent Communication Readiness across telephone, email, forms and booking/request paths with explicit authorisation boundaries
 • assessing Agent Governance across identity, permissions, allowed/prohibited actions, approval thresholds, limits, auditability, revocation and incident escalation
 • assessing Agent Portability across model-neutral sources of truth, reusable skills/workflows, interfaces, governance and credential separation, exportability and fallback continuity
+• assessing Attendance Conversion & Event Agent Readiness across reminders, attendance confirmation, explicit cancellation / release, waiting-list reallocation, no-show measurement and governed agent actions
 • optional analysis of natural-language search demand when first-party GSC data is available
 • physical-place identity and visual governance for venues where the module is applicable
 
