@@ -108,6 +108,18 @@ A client-specific `ai-governance.json` may include:
 - **Agent Governance**: what may an agent do, and how are permissions, approvals, limits and evidence controlled?
 - **Physical AI Governance**: how are comparable governance principles communicated for sensor-based AI systems in physical places?
 
+## User-agent duties: operational review (draft-informed)
+
+The W3C TAG published *Web User Agents* as a **Group Note Draft** on 23 September 2026. It discusses protection, honesty and loyalty. This is work in progress, not a W3C Recommendation, certification or direct implementation mandate: https://www.w3.org/TR/web-user-agents/ . TH Analytica uses the following as its own diagnostic matrix, not as a claim of W3C compliance.
+
+| Duty | Testable question | Evidence / open state |
+| --- | --- | --- |
+| Protection and data minimisation | Can a read-only page or message trigger side effects, disclose secrets or broaden permissions? Is only necessary data sent? | Reproduce in an isolated test; permissions, egress logs and redaction evidence. Unknown = unverified. |
+| Honesty | Are source, action, approval and actual result distinguished from a plausible generated confirmation? | Tool trace, source URL, backend state and user-facing confirmation compared. |
+| Loyalty and consent | Does the agent serve the user's stated goal rather than instructions embedded in a page, email, PDF or tool output? | Controlled indirect-injection and refusal/approval tests. |
+
+No website, email, PDF, image OCR or tool response may grant new authority merely by containing instructions. Writing, publication, messaging, payment, deletion and binding transactions require a separately authorised action path and human approval where consequential. A passing document review does not prove runtime enforcement.
+
 ## Scope limitation
 
 This module is a technical and operational governance assessment. It is not legal advice, a certification of regulatory compliance, or a guarantee that a third-party AI system will honour a published policy.
