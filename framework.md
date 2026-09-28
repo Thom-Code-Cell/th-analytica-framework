@@ -36,6 +36,8 @@ For local and location-dependent organisations this dimension includes the manda
 
 Full methodology and reporting rules: `local-ai-data-sources.md`.
 
+Visual AI Visibility is an evidence-based review within Dimensions 2 and 6, not an extra score axis. With authorised Search Console access or an export, record the availability of Google's multimodal search filter, preserve the baseline, and report visual search separately from generative-AI appearance, recommendations and business outcomes. Without data, mark it `not_measured`. Inspect image accessibility, precise alt text, meaningful filenames, image quality and page/entity context without claiming they are special AI ranking factors. See `visual-ai-visibility.md`.
+
 ## 3 Semantic Clarity
 Clear definition of services, topics and entities.
 
@@ -145,6 +147,7 @@ The TH Analytica Framework can be used for:
 • assessing Agent Portability across model-neutral sources of truth, reusable skills/workflows, interfaces, governance and credential separation, exportability and fallback continuity
 • assessing Attendance Conversion & Event Agent Readiness across reminders, attendance confirmation, explicit cancellation / release, waiting-list reallocation, no-show measurement and governed agent actions
 • optional analysis of natural-language search demand when first-party GSC data is available
+• Visual AI Visibility with a documented multimodal Search Console export and asset audit, where access is authorised
 • physical-place identity and visual governance for venues where the module is applicable
 
 ---
