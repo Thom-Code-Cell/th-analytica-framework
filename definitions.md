@@ -32,6 +32,14 @@ An agent-ready website exposes clear information, roles, actions and constraints
 
 ---
 
+## Agent Readiness Signal Maturity
+
+Agent Readiness Signal Maturity is the reporting layer that separates the current standards or ecosystem status of an agent-facing mechanism from the organisation's actual implementation evidence and from any measured downstream effect. It prevents standards maturity, technical presence and AI recommendation outcomes from being treated as the same thing.
+
+Experimental or emerging mechanisms can be useful diagnostics without being ranking factors or mandatory website requirements. Established standards can be technically valid without evidence that external AI agents consume a specific agent-facing use of them.
+
+---
+
 ## Agent Governance
 
 Agent Governance describes the rules and controls that determine what an AI agent is permitted to do, under which identity and approval conditions, within which financial, data and runtime limits, and how actions can be logged, reviewed, revoked or stopped. Agent capability does not equal permission.
