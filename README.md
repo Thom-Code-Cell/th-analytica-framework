@@ -12,6 +12,7 @@ It reviews:
 - Source Integrity & Evidence Readiness, including claim-level source verification for business-critical AI answers
 - AI Zero-Click Presence & Direct Action Measurement, separating observed AI-answer presence, zero-click capability, structural action readiness and attributable business outcomes\n- Recommendation Effectiveness & Robustness, separating discovery, understanding, shortlist consideration, explicit recommendation and actionable next steps
 - agent readiness, Agent Governance, controlled AI outputs, AI Interaction & Data Governance, Agent Communication Readiness, action boundaries, human approval and auditability
+- Agent Readiness Signal Maturity, separating standards/ecosystem maturity, implementation evidence and measured downstream effect; experimental discovery mechanisms such as DNS-AID are diagnostic-only unless applicability and evidence justify more
 - physical-place identity and AI-glasses governance where a venue is relevant
 - Personal Privacy Signal (PPS) for anonymous person-level privacy preferences and Collective Privacy Shield
 
@@ -49,6 +50,7 @@ See [Positioning Foundation](positioning-foundation.md).
 - [Visual AI Visibility measurement](visual-ai-visibility.md)
 - [LLM Discovery / Locale Resolution](llm-discovery-locale-resolution.md)
 - [AI Output & Liability Readiness](ai-output-liability-readiness.md)\n- [AI Interaction & Data Governance](ai-interaction-data-governance.md)\n- [Recommendation Effectiveness & Robustness](recommendation-effectiveness-robustness.md)
+- [Agent Readiness Signal Maturity](agent-readiness-signal-maturity.md)
 - [Agent Communication Readiness](agent-communication-readiness.md)
 - [Agent Governance](agent-governance.md)
 - [Physical AI Governance v0.1](physical-ai-governance.md)
