@@ -56,3 +56,9 @@ how to reproduce the experiment. BLE device observations apply to 0.1.0-test;
 QR hardware tests and BLE regression tests for 0.2.0-test remain pending.
 This is experimental public source, not a certified SDK. Existing licensing restrictions remain;
 see the reference README before product integration or redistribution.
+
+
+## Discuss a scoped pilot
+
+[Paid manufacturer feasibility pilot](05-paid-pilot.md): scope, prerequisites,
+phase gates, evidence and contact. Pricing and implementation rights are agreed separately.
