@@ -27,3 +27,14 @@ Canonical protocol specification: [../personal-privacy-signal.md](../personal-pr
 - [manufacturer-integration/](manufacturer-integration/README.md) — manufacturer evaluation and pilot kit
 
 Until an explicit licence file is adopted, do not infer unrestricted permission to copy, modify or redistribute project material merely because the repository is public.
+
+
+## Android receiver source for evaluation (2026-09-30)
+
+[Reference receiver 0.2.0-test](reference-receiver-android/README.md) includes BLE reception,
+local QR decoding, CameraX capture controls, build instructions and ten automated tests.
+[Integration examples and physical acceptance tests](reference-receiver-android/INTEGRATION.md) explain
+how to reproduce the experiment. BLE device observations apply to 0.1.0-test;
+QR hardware tests and BLE regression tests for 0.2.0-test remain pending.
+This is experimental public source, not a certified SDK. Existing licensing restrictions remain;
+see the reference README before product integration or redistribution.

@@ -70,3 +70,14 @@ Contact: thomas@th-analytica.com
 ## Agent Portability
 
 Dimension 7 includes a mandatory Agent Portability module that checks whether organisation-controlled knowledge, rules, skills, interfaces and governance can be reused or migrated across compatible agent runtimes without avoidable dependency on one provider. See `agent-portability.md`.
+
+
+## Android receiver source for evaluation (2026-09-30)
+
+[Reference receiver 0.2.0-test](pps/reference-receiver-android/README.md) includes BLE reception,
+local QR decoding, CameraX capture controls, build instructions and ten automated tests.
+[Integration examples and physical acceptance tests](pps/reference-receiver-android/INTEGRATION.md) explain
+how to reproduce the experiment. BLE device observations apply to 0.1.0-test;
+QR hardware tests and BLE regression tests for 0.2.0-test remain pending.
+This is experimental public source, not a certified SDK. Existing licensing restrictions remain;
+see the reference README before product integration or redistribution.
