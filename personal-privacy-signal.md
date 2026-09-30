@@ -11,6 +11,10 @@ A person can broadcast a short anonymous signal from a compatible device such as
 
 PPS does **not** currently force third-party Smart Glasses, cameras, robots or operating systems to comply. Enforcement requires support by the receiving manufacturer, operating system or application and must remain subject to applicable law and safety requirements.
 
+## Initial Android functional test
+
+The [30 September 2026 camera-stop test report](pps/tests/2026-09-30-android-camera-stop.md) documents three developer-operated trials on a Samsung Galaxy S10+ and Galaxy Tab A8. It separates log-derived results from operator observations and does not establish support by third-party devices.
+
 ## Design principle
 
 > Detect the privacy request, not the identity.
