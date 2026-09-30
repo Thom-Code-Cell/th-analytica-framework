@@ -17,6 +17,8 @@ It separates:
 
 These states must not be collapsed into one readiness score.
 
+Technical agent-discovery or interface signals must also remain separate from recommendation outcomes. Their standards/ecosystem maturity and implementation evidence are classified under `agent-readiness-signal-maturity.md`. A technically correct Link header, agent card, MCP endpoint, DNS-AID record or comparable mechanism is not by itself evidence that an external AI system used it or that it influenced a recommendation.
+
 ## Entity resolution and implementation state
 
 For each response, code **name mention**, **unambiguous entity match**, **canonical or verified URL citation**, **shortlist**, **explicit recommendation**, and **verified action** as separate fields. Record approved name, spelling, product/subbrand and canonical-domain variants before measurement; keep the matching rule and exceptions versioned. A URL-only hit is not automatically a recommendation; an unlinked name mention is not a citation. Ambiguous matches require human adjudication and must not be silently counted.
