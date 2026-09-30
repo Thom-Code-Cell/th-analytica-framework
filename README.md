@@ -51,6 +51,7 @@ See [Positioning Foundation](positioning-foundation.md).
 - [LLM Discovery / Locale Resolution](llm-discovery-locale-resolution.md)
 - [AI Output & Liability Readiness](ai-output-liability-readiness.md)\n- [AI Interaction & Data Governance](ai-interaction-data-governance.md)\n- [Recommendation Effectiveness & Robustness](recommendation-effectiveness-robustness.md)
 - [Agent Readiness Signal Maturity](agent-readiness-signal-maturity.md)
+- [Agentic Protocol Readiness — ARD, Interface and UCP](agentic-protocol-readiness.md)
 - [Agent Communication Readiness](agent-communication-readiness.md)
 - [Agent Governance](agent-governance.md)
 - [Physical AI Governance v0.1](physical-ai-governance.md)
@@ -67,6 +68,11 @@ For services, implementation guidance and current contact details, visit [TH Ana
 Maintainer: Thomas Hullin
 
 Contact: thomas@th-analytica.com
+
+
+## Agentic Protocol Readiness
+
+Dimension 7 separates agent discovery, callable interfaces and transactions. ARD is evaluated when a business intentionally publishes agentic resources; UCP is evaluated when real booking, ordering or checkout flows make it applicable. Neither protocol earns AI Visibility or recommendation points merely by being present. See `agentic-protocol-readiness.md`.
 
 
 ## Agent Portability

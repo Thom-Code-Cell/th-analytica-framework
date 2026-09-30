@@ -1,13 +1,14 @@
 {
   "name": "TH Analytica Agent",
-  "version": "1.0",
+  "version": "1.1",
   "description": "Agent card describing the capabilities and functions of the TH Analytica framework for AI visibility and readiness.",
   "llms": [],
   "core_concepts": {
     "semantic_friction": "Minimise ambiguous or conflicting terminology to help AI systems understand your domain.",
     "agent_readiness": "Design data, permissions and processes so AI-assisted systems can interpret possible actions and escalate them for human approval.",
     "ai_actionability": "Structure information so possible actions and their constraints are explicit without authorising autonomous execution.",
-    "agent_communication_readiness": "Document verified contact channels, required inquiry data, user authorisation and human handover so capable external agents can communicate without implying permission or autonomous commitment."
+    "agent_communication_readiness": "Document verified contact channels, required inquiry data, user authorisation and human handover so capable external agents can communicate without implying permission or autonomous commitment.",
+    "agentic_protocol_readiness": "Separate resource discovery, callable interfaces, transactional protocols and governance; verify implementation before crediting readiness."
   },
   "actions": [
     {
@@ -21,6 +22,10 @@
     {
       "name": "agent_communication_readiness_assessment",
       "description": "Assess telephone, email, form and booking/request contact paths, handover boundaries and client-specific agent-contact-readiness metadata without initiating live contact unless explicitly authorised."
+    },
+    {
+      "name": "agentic_protocol_readiness_assessment",
+      "description": "Assess ARD, interface protocols and UCP only where applicable, separating discovery evidence from implemented and validated actions."
     }
   ],
   "contact": {
