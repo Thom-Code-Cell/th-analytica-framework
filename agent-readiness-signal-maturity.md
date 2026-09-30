@@ -129,7 +129,35 @@ Do not permanently hard-code an emerging technology as established or experiment
 
 Where several mechanisms overlap, report them separately rather than treating one as a universal replacement for another.
 
-## 8. Scoring rules
+## 8. Agentic Resource Discovery (ARD)
+
+As of 2026-09-30, the authoritative ARD specification is **v0.91**, dated 2026-08-26, with status **Proposal**. TH Analytica classifies ARD as **EMERGING**.
+
+ARD is applicable where an organisation publishes or intends to publish externally discoverable agentic resources. The canonical publisher location is `/.well-known/ard.json`. `rel="ard"` and an `Agentmap:` directive are additional discovery mechanisms. The predecessor `/.well-known/ai-catalog.json` is optional compatibility only.
+
+For implementation evidence, check the manifest structure, domain-anchored `urn:air:` identifiers, resource media type, exactly one of `url` or `data`, representative queries and the reachability of referenced artifacts.
+
+ARD presence does not prove registry ingestion, model consumption, recommendation impact or business outcome.
+
+Reference: https://github.com/ards-project/ard-spec/blob/main/spec/ard.md
+
+## 9. Universal Commerce Protocol (UCP)
+
+As of 2026-09-30, UCP is an actively implemented but evolving open commerce protocol. TH Analytica classifies it as **EMERGING** and applicability-gated.
+
+A supporting business publishes its profile at `/.well-known/ucp`. Positive implementation evidence requires a conformant profile plus the services, transports, capabilities, payment handlers and endpoints that the profile declares. A static placeholder or a JSON statement that UCP is supported is not implementation evidence.
+
+UCP is normally applicable only where a real transaction flow exists, such as lodging booking, retail checkout/order management or food ordering. Missing UCP is not a readiness defect for a non-transactional organisation.
+
+Google documents UCP use across shopping, lodging and food, including lodging booking flows in AI Mode with real-time pricing and availability. Ecosystem use does not remove the requirement to verify the individual business implementation.
+
+References:
+
+- https://ucp.dev/specification/overview/
+- https://developers.google.com/universal-commerce-protocol
+- https://developers.google.com/hotels/ucp/faq
+
+## 10. Scoring rules
 
 1. Experimental or emerging signals do not earn points merely for existing.
 2. Missing experimental signals do not reduce the score unless a documented client use case makes the mechanism necessary and the scoring model explicitly defines that requirement.
@@ -138,7 +166,7 @@ Where several mechanisms overlap, report them separately rather than treating on
 5. Recommendation Effectiveness, AI Visibility, business action and attributable business outcome remain separate evidence layers.
 6. Unknown or unverified support must remain unknown; it must not be silently converted to absent or failed.
 
-## 9. Recommended Full Analysis output
+## 11. Recommended Full Analysis output
 
 When applicable, include a subsection titled **Agentic-Web Signal Maturity** with:
 
