@@ -1,7 +1,8 @@
 # Agent Communication Readiness
 
 Status: **Mandatory module within Framework Dimension 7: Agent Readiness and Governance**  
-Effective: 2026-09-20
+Effective: 2026-09-20  
+Voice / Call Agent Readiness extension: 2026-10-02
 
 ## Purpose
 
@@ -26,12 +27,39 @@ Every applicable assessment reviews:
 7. privacy, data-minimisation and transparency requirements for agent-mediated communication;
 8. the difference between a public contact path and an external agent's actual communication capability or permission.
 
+## Voice / Call Agent Readiness
+
+Voice / Call Agent Readiness is a mandatory submodule when telephone or voice contact is material to the customer journey. It evaluates whether a voice-capable AI agent, acting with user authorisation, can reach the organisation, obtain the information needed for the user's goal and stop at the correct confirmation or human-handover boundary.
+
+The diagnostic question is:
+
+**Can an authorised voice agent complete the information-gathering or request-preparation part of a call reliably without creating an unverified commitment?**
+
+The assessment records, where applicable:
+
+1. whether the canonical telephone number is current and consistent across authoritative sources;
+2. whether published service or opening hours are usable for call timing;
+3. whether IVR or menu navigation can be understood without relying on undocumented visual context;
+4. whether staff can recognise and appropriately handle an AI-agent disclosure;
+5. whether prices, availability, requirements and policy answers match authoritative digital sources;
+6. whether a reservation, appointment, order or other request requires explicit confirmation before becoming binding;
+7. whether cancellation, modification, waiting-list, callback and escalation paths are clear;
+8. which personal data the agent would need to disclose and whether that data is necessary for the task;
+9. whether recording, transcription or automated-agent disclosures create additional transparency or compliance requirements;
+10. whether the agent can transfer or hand the interaction back to the user or a responsible human when uncertainty or a consequential decision appears.
+
+A successful informational call is not evidence that autonomous booking, payment or another consequential transaction is safe or authorised.
+
+Current third-party implementations may be used as dated evidence that voice-agent calling exists in practice, but vendor availability, device requirements and regional restrictions are **not** scoring criteria. The TH Analytica score remains based on the analysed organisation's observable readiness and authorised test evidence.
+
 ## Evidence states
 
 - **Documented**: a contact channel is published by an authoritative source.
 - **Reachable**: the technical endpoint or channel is observable as available without performing an unauthorised interaction.
 - **Authorised test verified**: a real phone, email or other contact test has been performed with explicit authorisation and the outcome is recorded.
 - **Human handover verified**: the organisation's confirmation or escalation point is documented and, where authorised, tested.
+- **Voice path documented**: the telephone journey, IVR/menu structure, required information and confirmation boundary are documented from authoritative evidence.
+- **Authorised voice test verified**: an AI-mediated or controlled voice test has been explicitly authorised, performed and recorded with its date, tool/provider, task and outcome.
 
 A published phone number or email address alone is not proof that an AI agent can call or send mail. Likewise, successful delivery does not authorise booking, payment, professional advice or another consequential action.
 
@@ -52,7 +80,8 @@ For each client, the generated artefact should document:
 - required inquiry data;
 - human handover and confirmation points;
 - actions that remain prohibited or require explicit human approval;
-- whether a live communication test was authorised and performed.
+- whether a live communication test was authorised and performed;
+- for material telephone journeys, the Voice / Call Agent Readiness result, including IVR/menu handling, disclosure, information consistency, confirmation boundaries and human handover.
 
 ## Live communication tests
 
