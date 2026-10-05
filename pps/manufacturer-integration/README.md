@@ -15,6 +15,7 @@ Give a manufacturer enough information to evaluate Personal Privacy Signal (PPS)
 3. `03-pilot-plan.md`
 4. `04-vendor-questionnaire.md`
 5. `../conformance/README.md`
+6. `vendor-studies/htc-vive-eagle.md` — VIVE Eagle application-level feasibility study
 
 Canonical specification: `../../personal-privacy-signal.md`
 
