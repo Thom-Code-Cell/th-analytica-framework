@@ -85,6 +85,15 @@ The Android package remains `com.thanalytica.pps` and uses the same stable
 release signer as Beta 1.0.0-beta2 so existing Beta-2 installations can be
 updated in place.
 
+
+## Vendor-specific feasibility studies
+
+These studies map PPS to public vendor SDK surfaces without claiming adoption,
+endorsement or compatibility.
+
+- HTC VIVE Eagle:
+  https://github.com/Thom-Code-Cell/th-analytica-framework/blob/main/pps/manufacturer-integration/vendor-studies/htc-vive-eagle.md
+
 ## Evaluation request
 
 A manufacturer does not need to support every PPS flag to run a pilot.
