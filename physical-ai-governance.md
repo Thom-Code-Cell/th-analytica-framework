@@ -7,6 +7,10 @@ Updated: 2026-09-16
 
 A visible QR marker can lead a person or compatible AI client to a machine-readable venue policy. It cannot universally disable cameras, microphones or AI-glasses functions. Version 0.1 therefore treats enforcement as advisory and requires transparent user notice, bounded duration and manual override.
 
+## Connection to Agent Governance
+
+[Agentic Control & Containment](agent-governance.md#physical-ai-connection-pps--pps) connects machine-readable boundaries with verified enforcement by a compatible client. This conceptual connection also applies to PPS/PPS+; it does not upgrade this advisory venue profile, alter protocol semantics or establish commercial-glasses support. Record policy receipt, enforcement, override and residual effects separately.
+
 ## Purpose
 
 The profile connects four surfaces:

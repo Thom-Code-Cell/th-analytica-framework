@@ -1,7 +1,10 @@
 # Agent Governance
 
-Status: **Mandatory module within Framework Dimension 7: Agent Readiness and Governance**  
+Status: **Mandatory module within Framework Dimension 7: Agent Readiness, Governance and Portability**
+
 Effective: 2026-09-20
+
+Agentic Control & Containment extension: 2026-10-06
 
 ## Purpose
 
@@ -10,6 +13,8 @@ Agent Governance assesses whether an organisation defines and can evidence the r
 Agent Readiness asks whether an agent can understand a possible action and its prerequisites. Agent Governance asks **what the agent is allowed to do, under which conditions, with which limits, and how the decision and execution can be audited**.
 
 Capability is therefore not treated as permission. A documented action, API, tool, contact path or machine-readable skill does not by itself authorise execution.
+
+**Agent Readiness without Agent Governance is incomplete.** Readiness and governance remain distinct results; a high readiness score cannot substitute for evidence that action boundaries work.
 
 ## Core diagnostic question
 
@@ -38,6 +43,48 @@ Every full analysis reviews, where applicable:
 - **Human-reviewed**: a responsible person has verified the rule, boundary or exception.
 
 Documentation alone must never be reported as proof that a control is technically enforced.
+
+## Agentic Control & Containment
+
+This is a **mandatory review area within Agent Governance**, not a new framework dimension, score or certification. It operationalises the existing mandatory checks above. The [July 2026 coordination incident](evidence/2026-07-agent-coordination.md) supplies external evidence and explicitly separates reported observations from TH Analytica's interpretation.
+
+Every Full Analysis records applicability per control: `applicable`, `not_applicable` with a reason, or `open`. An organisation with no controlled agent runtime may have public action boundaries to review while runtime tests are not applicable. Lack of access or unknown implementation is `open`, never proof of absence or a reason to mark a control passed. Collective behaviour must consider shared services even when the design calls its agents isolated.
+
+| ID | Required control | Question and minimum evidence | Authorised verification / expected boundary |
+| --- | --- | --- | --- |
+| ACC-01 | Authority Boundary | Who grants which actor authority over which tools, data and resources? Record owner, role/scope matrix and policy version. | A permitted operation succeeds; an out-of-scope action or peer claim of authority is denied before execution. |
+| ACC-02 | Communication Boundary | Which peers, destinations and shared stores may be used? Record approved channels, tenant/run isolation and egress configuration. | Approved communication works; unapproved recipients and cross-run shared-store access are denied and logged. Include indirect channels, caches and package services. |
+| ACC-03 | Goal Boundary | What is the authorised objective, allowed delegation, budget and safe exit? Record stop conditions and goal-change approval. | An impossible task stops or escalates; a peer/tool instruction cannot silently expand the objective or turn evaluation success into permission. |
+| ACC-04 | Privilege/Credential Escalation | Are credentials scoped, short-lived and isolated from the model where feasible? Record credential broker, role and delegation limits without publishing secrets. | A scoped test identity cannot expand its role, inherit another run's credentials or reuse an expired credential. Use synthetic credentials only. |
+| ACC-05 | Collective/Emergent Behaviour | Can shared state or delegation create unauthorised collective work? Record agent topology, lineage, shared resources and aggregate budgets. | A controlled multi-agent scenario cannot pool permissions or bypass aggregate limits; denial propagates to delegated tasks. |
+| ACC-06 | Human Approval/Oversight | Who approves consequential actions and receives alerts? Record approver, exact action/resource binding, expiry and escalation owner. | Missing, expired, replayed or mismatched approval blocks action. An agent cannot approve itself or treat another agent's GO as human approval. |
+| ACC-07 | Auditability | Can an independent reviewer reconstruct decisions and side effects? Record protected tool/backend logs, run/parent IDs, policy version, approvals, denials, timestamps and retention rules. | Compare claimed action with backend state; log tampering is prevented or detected. Minimise/redact personal data and secrets; private chain-of-thought is not required. |
+| ACC-08 | Containment/Revocation | Can the owner stop the whole authorised execution scope? Record isolation, credential/session revocation, child jobs, queues, persistent state and recovery procedure. | Emergency stop and revocation prevent new actions, address in-flight effects and delegated jobs, and require explicit restart approval. Measure stop latency and residual effects. |
+| ACC-09 | Technical Policy Enforcement | Where does a policy decision bind execution outside the model's discretion? Record policy decision/enforcement points, version and coverage of tools, network, storage and relevant sensors. | Allowed action succeeds; denial, invalid/stale policy and enforcement-service failure block covered actions. Test alternate paths and ensure acknowledgement follows actual enforcement, not merely policy receipt. |
+
+Tests require an explicitly authorised scope and isolated fixtures. This matrix does not authorise live intrusion, external messaging, credential discovery or production changes.
+
+### Full-analysis record and decision
+
+For **each ACC ID**, record: applicability and reason; responsible owner; system/runtime and version; boundary and policy; evidence source/date; separate `Documented`, `Implemented`, `Tested`, `Human-reviewed` evidence; enforcement point; authorised test scope; expected and observed result; test timestamp and log reference; residual risk; remediation owner and retest date. Missing evidence is `unverified`; unperformed tests are `not_measured`. A failed test remains a failure even if the control is documented.
+
+The report may be delivered with explicit open findings after human review, but **operational readiness for the affected action must not be approved** while a required boundary is unknown, a denial test fails or revocation is unverified. No averaged score can cancel this gate. `not_applicable` needs a reviewed rationale and contributes no positive score. A passing test establishes only the tested environment, version, action and time, not universal security.
+
+Reuse the existing `/.well-known/ai-governance.json` draft rather than publishing another policy file. An optional `agenticControlContainment` assessment section can carry ACC IDs, applicability, evidence states, test result and review status. Defaults are open/unverified/not_measured; never fill them from a website score. Detailed logs, credentials and sensitive topology stay in the protected evidence register; public drafts contain only approved summaries.
+
+### Quick-Check criteria and wording
+
+Within the existing non-weighted governance diagnosis, inspect only supplied or actually retrieved public evidence for: declared authority/action limits, communication/delegation limits, human approval/handover, audit/incident responsibility and revocation/enforcement claims. Cite the observed source and date; distinguish a declaration from evidence of a control.
+
+Do not run actions, credential tests, sandbox escapes or agent-to-agent communication. Internal implementation, collective behaviour, effective containment and technical enforcement remain `not_measured`. Missing public documentation is a documentation gap, not proof of absent internal controls. Do not add a score bonus for a policy file or a score penalty for inaccessible runtime evidence.
+
+Report wording: “Public action and approval boundaries: [source-backed finding or not observed]. Runtime enforcement and containment: not measured. Agent Readiness without Agent Governance is incomplete; operational verification requires the Full Analysis and an authorised test scope.”
+
+## Physical AI connection: PPS / PPS+
+
+The shared design principle is **machine-readable boundaries plus technical enforcement**. [PPS](personal-privacy-signal.md) communicates a local privacy preference; [PPS+](pps/PPS-PLUS.md) describes richer capture, inference, retention/use and action boundaries. A compatible receiver must map supported restrictions to a real enforcement point and report unsupported controls honestly. Receipt of a policy is not proof of enforcement, authority, consent or legal compliance.
+
+This is a conceptual mapping to ACC-01/06/07/08/09, not evidence that PPS prevents agent coordination or all sensor misuse. Preserve existing protocol and safety semantics; a failed or missing signal is not permission to resume capture. The [reference receiver](pps/reference-receiver-android/README.md) limits enforcement to its own supported capture path; it does not establish full PPS+ enforcement of profiling or training. The [recorded BLE experiment](pps/tests/2026-09-30-android-camera-stop.md) concerns named reference builds/devices. No commercial-glasses integration is established by this assessment, and manufacturer contact or feasibility discussion is not integration evidence.
 
 ## Full-analysis requirement
 
