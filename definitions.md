@@ -42,6 +42,8 @@ Experimental or emerging mechanisms can be useful diagnostics without being rank
 
 ## Agent Governance
 
+Agent Readiness without Agent Governance is incomplete. **Agentic Control & Containment** is the mandatory operational review within Agent Governance that tests authority, communication and goal boundaries, privilege/credential escalation, collective behaviour, human oversight, auditability, revocation and policy enforcement. It is not another score dimension. See [the control matrix](agent-governance.md#agentic-control--containment).
+
 Agent Governance describes the rules and controls that determine what an AI agent is permitted to do, under which identity and approval conditions, within which financial, data and runtime limits, and how actions can be logged, reviewed, revoked or stopped. Agent capability does not equal permission.
 
 ---

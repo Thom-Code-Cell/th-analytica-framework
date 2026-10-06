@@ -10,7 +10,8 @@
     "Security and governance",
     "Source-of-truth control",
     "Output guardrails",
-    "Human escalation"
+    "Human escalation",
+    "Agentic Control & Containment within Agent Governance (ACC-01 through ACC-09; no separate score)"
   ],
   "ai_actionability": [
     "Structured data",
